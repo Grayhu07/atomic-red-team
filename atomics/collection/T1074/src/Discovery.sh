@@ -4,9 +4,9 @@ curl ifconfig.me
 ifconfig
 whoami
 pwd
-ls -lhart /Users/
-ls /Applications/
-ls /Library/
+ls -lhart /usr/
+ls /bin/
+ls /lib/
 crontab -l
 at -l
 netstat -an | grep -i listen
