@@ -1,0 +1,24 @@
+---
+attack_technique: T0000
+display_name: pack and send
+
+atomic_tests:
+- name: pack
+  description: |
+    Use tar to pack the package (and send)
+  supported_platforms:
+    - linux
+  input_arguments:
+    payload:
+      description: Output file path
+      type: Path
+      default: ~/output/
+  output:
+    file: ~/output.tar.gz
+  executor:
+    name: bash
+    command: |
+      tar -czvf ~/output.tar.gz #{payload}
+
+      
+

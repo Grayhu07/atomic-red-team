@@ -13,6 +13,8 @@ atomic_tests:
       description: Username of the user to create
       type: String
       default: evil_user
+  output:
+    file: None
   executor:
     name: bash
     elevation_required: true

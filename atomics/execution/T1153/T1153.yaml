@@ -10,7 +10,8 @@ atomic_tests:
   supported_platforms:
     - macos
     - linux
-
+  output:
+    file: None
   executor:
     name: sh
     command: |
@@ -25,7 +26,8 @@ atomic_tests:
   supported_platforms:
     - macos
     - linux
-
+  output:
+    file: None
   executor:
     name: sh
     command: |

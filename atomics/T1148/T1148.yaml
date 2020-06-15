@@ -13,7 +13,9 @@ atomic_tests:
     evil_command:
       description: Command to run after shell history collection is disabled
       type: String
-      default: whoami
+      default: pwd
+  output:
+    file: None
   executor:
     name: sh
     command: |

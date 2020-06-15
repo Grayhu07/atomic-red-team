@@ -9,6 +9,8 @@ atomic_tests:
   supported_platforms:
     - linux
     - macos
+  output:
+    file: None
   executor:
     name: sh
     elevation_required: false

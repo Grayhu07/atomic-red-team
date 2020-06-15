@@ -17,8 +17,9 @@ atomic_tests:
     output_file:
       description: path of output file
       type: path
-      default: /tmp/loot.txt
-
+      default: ~/output/loot.txt
+  output:
+    file: ~/output/loot.txt
   executor:
     name: sh
     elevation_required: false

@@ -19,7 +19,8 @@ atomic_tests:
       description: Kernel module name once loaded.
       type: string
       default: diamorphine
-
+  output:
+    file: None
   executor:
     name: bash
     elevation_required: true # indicates whether command must be run with admin privileges. If the elevation_required attribute is not defined, the value is assumed to be false

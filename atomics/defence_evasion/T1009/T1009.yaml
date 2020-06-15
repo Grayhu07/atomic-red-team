@@ -16,7 +16,9 @@ atomic_tests:
     file_to_pad:
       description: Path of binary to be padded
       type: Path
-      default: /tmp/evil-binary
+      default: ~/output/evil-binary
+  output:
+    file: ~/output/evil-binary
   executor:
     name: sh
     elevation_required: false

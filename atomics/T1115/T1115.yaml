@@ -29,4 +29,4 @@ atomic_tests:
     elevation_required: false
     command: |
       echo Get-Process | clip
-      Get-Clipboard | iex
+      iex Get-Clipboard

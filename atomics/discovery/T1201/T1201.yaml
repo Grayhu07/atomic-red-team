@@ -9,11 +9,12 @@ atomic_tests:
 
   supported_platforms:
     - linux
-
+  output:
+    file: ~/output/pwd_policy.txt
   executor:
     name: bash
     command: |
-      cat /etc/pam.d/common-password
+      cat /etc/pam.d/common-password >> ~/output/pwd_policy.txt
 
 - name: Examine password complexity policy - CentOS/RHEL 7.x
   description: |

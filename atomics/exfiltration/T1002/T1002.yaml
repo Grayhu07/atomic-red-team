@@ -3,77 +3,6 @@ attack_technique: T1002
 display_name: Data Compressed
 
 atomic_tests:
-- name: Compress Data for Exfiltration With PowerShell
-  description: |
-    An adversary may compress data (e.g., sensitive documents) that is collected prior to exfiltration.
-    When the test completes you should find the files from the $env:USERPROFILE directory compressed in a file called T1002-data-ps.zip in the $env:USERPROFILE directory 
-  supported_platforms:
-    - windows
-  input_arguments:
-    input_file:
-      description: Path that should be compressed into our output file
-      type: Path
-      default: $env:USERPROFILE
-    output_file:
-      description: Path where resulting compressed data should be placed
-      type: Path
-      default: $env:USERPROFILE\T1002-data-ps.zip
-  executor:
-    name: powershell
-    elevation_required: false
-    command: |
-      dir #{input_file} -Recurse | Compress-Archive -DestinationPath #{output_file}
-    cleanup_command: |
-      Remove-Item -path #{output_file} -ErrorAction Ignore
-
-- name: Compress Data for Exfiltration With Rar
-  description: |
-    An adversary may compress data (e.g., sensitive documents) that is collected prior to exfiltration.
-    When the test completes you should find the txt files from the %USERPROFILE% directory compressed in a file called T1002-data.rar in the %USERPROFILE% directory 
-
-  supported_platforms:
-    - windows
-  input_arguments:
-    input_path:
-      description: Path that should be compressed into our output file
-      type: Path
-      default: '%USERPROFILE%'
-    file_extension:
-      description: Extension of files to compress
-      type: String
-      default: ".txt"
-    output_file:
-      description: Path where resulting compressed data should be placed
-      type: Path
-      default: '%USERPROFILE%\T1002-data.rar'
-    rar_installer:
-      description: Winrar installer
-      type: Path
-      default: '%TEMP%\winrar.exe'
-    rar_exe:
-      description: The RAR executable from Winrar
-      type: Path
-      default: '%programfiles%/WinRAR/Rar.exe'
-
-  dependencies:
-    - description: |
-        Rar tool must be installed at specified location (#{rar_exe})
-      prereq_command: |
-        if not exist "#{rar_exe}" (exit /b 1)
-      get_prereq_command: |
-        echo Downloading Winrar installer
-        bitsadmin /transfer myDownloadJob /download /priority normal "https://www.win-rar.com/fileadmin/winrar-versions/winrar/th/winrar-x64-580.exe" #{rar_installer}
-        echo Follow the installer prompts to install Winrar
-        #{rar_installer}
-
-  executor:
-    name: command_prompt
-    elevation_required: false
-    command: |
-      "#{rar_exe}" a -r #{output_file} #{input_path}\*#{file_extension}
-    cleanup_command: |
-      del /f /q /s #{output_file} >nul 2>&1
-
 - name: Data Compressed - nix - zip
   description: |
     An adversary may compress data (e.g., sensitive documents) that is collected prior to exfiltration. This test uses standard zip compression.
@@ -90,7 +19,8 @@ atomic_tests:
       description: Path that should be output as a zip archive
       type: Path
       default: $HOME/data.zip
-
+  output:
+    file: None
   dependencies:
     - description: |
         Files to zip must exist (#{input_files})

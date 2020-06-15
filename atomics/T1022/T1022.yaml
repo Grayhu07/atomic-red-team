@@ -17,11 +17,11 @@ atomic_tests:
     command: |
       mkdir /tmp/victim-files
       cd /tmp/victim-files
-      touch a b c d e f g
+      touch /tmp/victim-files/a /tmp/victim-files/b /tmp/victim-files/c /tmp/victim-files/d /tmp/victim-files/e /tmp/victim-files/f /tmp/victim-files/g
       echo "creating zip with password 'insert password here'"
-      zip --password "insert password here" ./victim-files.zip ./*
+      zip --password "insert password here" /tmp/victim-files/victim-files.zip /tmp/*
       echo "encrypting file with gpg, you will need to provide a password"
-      gpg -c /tmp/victim-files/victim-filex.zip
+      gpg -c /tmp/victim-files/victim-files.zip
       #<enter passphrase and confirm>
       ls -l
     cleanup_command: |

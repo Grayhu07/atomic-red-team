@@ -43,7 +43,8 @@ atomic_tests:
       description: File name of systemd service unit file
       type: String
       default: art-systemd-service.service
-
+  output:
+    file: None
   executor:
     name: bash
     command: |

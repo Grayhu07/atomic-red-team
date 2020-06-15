@@ -14,7 +14,8 @@ atomic_tests:
   supported_platforms:
     - macos
     - linux
-
+  output:
+    file: None
   input_arguments:
     domain:
       description: target SSH domain

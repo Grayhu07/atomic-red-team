@@ -16,11 +16,12 @@ atomic_tests:
       description: Computer name to find a mount on.
       type: string
       default: computer1
-
+  output:
+    file: ~/output/mount.txt
   executor:
     name: sh
     command: |
-      df -aH
+      df -aH >> ~/output/mount.txt
       smbutil view -g //#{computer_name}
       showmount #{computer_name}
 

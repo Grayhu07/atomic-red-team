@@ -26,6 +26,8 @@ atomic_tests:
       description: Remote path to receive rsync
       type: Path
       default: /tmp/victim-files
+  output:
+    file: None
   executor:
     name: bash
     command: |

@@ -13,7 +13,9 @@ atomic_tests:
     output_file:
       description: Path where captured results will be placed
       type: Path
-      default: ~/loot.txt
+      default: ~/output/loot.txt
+  output:
+    file: ~/output/loot.txt
   executor:
     name: sh
     command: |

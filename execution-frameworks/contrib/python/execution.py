@@ -9,7 +9,7 @@ import json
 import argparse
 
 
-load_path = '/opt/AtomicRedTeam/atomics'
+load_path = '/home/test/atomic-red-team/atomics'
 yaml = ruamel.yaml.YAML()
 
 def parseArguments():
@@ -44,18 +44,22 @@ def useful_test(atomic_tests, position):
 
 def get_payload(list_doc,position=0,new_payload=None):
 	if not new_payload:
-		args = []
-		payload_list = []
 		test = useful_test(list_doc['atomic_tests'],position)
-		inputs = test['input_arguments']
-		for data in inputs:
-			args.append(data)
-		if len(args) == 0:
+		out = test['output']
+		result = out['file']
+		#print(result)
+		'''for data in inputs:
+			print(data)
+			#print(data['output'])'''
+		#print(inputs[output])
+		'''if len(args) == 0:
 			print('no default input arguments')
 		for i in range(len(args)):
 			temp = inputs[args[i]]
-			payload_list.append(temp['default'])
-	return args,payload_list
+			payload_list.append(temp['file'])'''
+	else:
+		result = new_payload
+	return result
 
 def set_parameter(inputs,arguments,index):
 	args = parseArguments()
@@ -66,32 +70,45 @@ def set_parameter(inputs,arguments,index):
 			tmp = {inputs[index][i]: args.parameter}
 			json_parameter = json.dumps(tmp)
 			parameter = json.loads(json_parameter)
-			#with open('config.json','w') as f:
-				#json.dump(json_parameter,f)
 		i+=1
 	return parameter
 		
+
+def random_test(index_list,test_list):
+	for i in index_list:
+		tmp = []
+		relative = os.path.join(load_path,i)
+		tmp = os.listdir(relative)
+		test_list.append(random.choice(tmp))
 
 if __name__ == '__main__':
 	technique = runner.AtomicRunner()
 	args = parseArguments()
 	inputs = []
 	payload_list = []
+	test_list = []
 	i=0
 	flag = False
-	index_list = ['collection','defence_evasion','execution','credential_access','defence_evasion','escalation','persistence']
-	test_list = ['T1113','T1090','T1059','T1139','T1146','T1166','T1156']
-	while flag == False and i<len(index_list):
-		relative = os.path.join(load_path,index_list[i])
+	index_list = ['collection','command&control','discovery','defence_evasion','execution','credential_access','escalation',\
+'exfiltration','persistence']
+	attack_list=index_list+['Include','Include','final']
+	#test_list = ['T1113','T1090','T1059','T1139','T1146','T1166','T1156']
+	#index_list = ['collection','command&control','credential_access','defence_evasion','final']
+	random_test(index_list,test_list)
+	temp_list = ['T1146','T1099','T0000']
+	test_list = test_list + temp_list
+	print(test_list)
+	#index_list = ['persistence']
+	#test_list = ['T1501']
+#for passing file name using parameter, can preload all required name of args and get payload value dynamically. (need implement).
+	while flag == False and i<len(attack_list):
+		relative = os.path.join(load_path,attack_list[i])
 		test_path = os.path.join(relative,test_list[i],test_list[i]+'.yaml')
 		normalize = os.path.normpath(test_path)
-		#list_doc = load_yaml_file(normalize)
-		#tmp1,tmp2 = get_payload(list_doc,0)
-		#inputs.append(tmp1)
-		#payload_list.append(tmp2)
+		list_doc = load_yaml_file(normalize)
+		output = get_payload(list_doc,0)
 		#parameter = set_parameter(inputs,payload_list,i)
 		#print(parameter)
-		#print(payload_list)
 		#print('running test {}, this test will set specific file uid').format
 		flag = technique.execute(test_list[i],position=0)
 		if flag:
@@ -100,8 +117,5 @@ if __name__ == '__main__':
 		else:
 			print('Failed and skip')
 		i+=1
+	os.remove(os.path.join('./techniques_hash.db'))
 	print('Finish test')
-	print('the result consist with screen shot, download and run script from online source,\
-copy sensitive command to loot.txt, add the script to bashrc')
-	print('after complete this file, the screen shot can be found under T1166 folder')
-	print('every time user open a new terminal, the result will saved in ~/ folder')

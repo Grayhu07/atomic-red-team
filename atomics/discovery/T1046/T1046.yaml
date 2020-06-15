@@ -3,23 +3,6 @@ attack_technique: T1046
 display_name: Network Service Scanning
 
 atomic_tests:
-- name: Port Scan
-  description: |
-    Scan ports to check for listening ports.
-
-    Upon successful execution, sh will perform a network connection against a single host (192.168.1.1) and determine what ports are open in the range of 1-65535. Results will be via stdout.
-  supported_platforms:
-    - linux
-    - macos
-  executor:
-    name: sh
-    elevation_required: false
-    command: |
-      for port in {1..65535};
-      do
-        echo >/dev/tcp/192.168.1.1/$port && echo "port $port is open" || echo "port $port is closed" : ;
-      done
-
 - name: Port Scan Nmap
   description: |
     Scan ports to check for listening ports with Nmap.
@@ -43,10 +26,11 @@ atomic_tests:
       description: Host to scan.
       type: string
       default: 192.168.1.1
-
+  output:
+    file: ~/output/port.txt
   executor:
     name: sh
     command: |
-      nmap -sS #{network_range} -p #{port}
-      telnet #{host} #{port}
-      nc -nv #{host} #{port}
+      nmap -sS #{network_range} -p #{port} >> ~/output/port.txt
+      telnet #{host} #{port} >> ~/output/port.txt
+      nc -nv #{host} #{port} >> ~/output/port.txt

