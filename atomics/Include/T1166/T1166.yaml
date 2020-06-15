@@ -14,15 +14,15 @@ atomic_tests:
     payload:
       description: hello.c payload
       type: path
-      default: ~/control.sh
+      default: ~/atomic-red-team/control.sh
   output:
     file: None
   executor:
     name: sh
     elevation_required: true
     command: |
-      sudo chown root ~/control.sh
-      sudo chmod 4755 ~/control.sh
+      sudo chown root ~/atomic-red-team/control.sh
+      sudo chmod 4755 ~/atomic-red-team/control.sh
       ls -l ~
     cleanup_command: |
       sudo rm ./hello

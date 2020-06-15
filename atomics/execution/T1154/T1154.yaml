@@ -17,6 +17,6 @@ atomic_tests:
   executor:
     name: sh
     command: |
-      trap "nohup /opt/AtomicRedTeam/atomics/execution/T1154/src/echo-art-fish.sh | bash" EXIT
+      trap "nohup ./src/echo-art-fish.sh | bash" EXIT
       exit
-      trap "nohup /opt/AtomicRedTeam/atomics/execution/T1154/src/echo-art-fish.sh | bash" SIGINt
+      trap "nohup ./src/echo-art-fish.sh | bash" SIGINt

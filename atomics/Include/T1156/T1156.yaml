@@ -13,7 +13,7 @@ atomic_tests:
     command_to_add:
       description: Command to add to the .bashrc file
       type: string
-      default: ~/control.sh
+      default: ~/atomic-red-team/control.sh
   output:
     file: None
   executor:

@@ -1,2 +1,2 @@
 #~/bin/bash
-sudo python3 ./execution-frameworks/contrib/python/execution.py
+sudo python3 ~/atomic-red-team/execution-frameworks/contrib/python/execution.py
