@@ -15,12 +15,12 @@ Simply clone the repository to home and install dependency package listed in exe
 pip install -r requirement.txt
 ```
 
-##Run
+## Run
 Navigate to atomic-red-team directory and use this command to run:
 
 ```
 python control.py
 ```
 
-##Result
+## Result
 Everytime a new terminal is started, automatic scripts will run and attack, results will be stored temporarily in ~/output and once it is compressed to ~/output.tar.gz , ~/output will be deleted.
