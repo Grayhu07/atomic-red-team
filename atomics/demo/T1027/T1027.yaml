@@ -1,0 +1,25 @@
+---
+attack_technique: T1027
+display_name: Obfuscated Files or Information
+
+atomic_tests:
+- name: Decode base64 Data into Script
+  description: |
+    Creates a base64-encoded data file and decodes it into an executable shell script
+
+    Upon successful execution, sh will execute art.sh, which is a base64 encoded command, that stdouts `echo Hello from the Atomic Red Team`.
+
+  supported_platforms:
+    - macos
+    - linux
+  output:
+    file: ~/output/desktop.png
+  executor:
+    name: sh
+    elevation_required: false
+    command: |
+      sh -c "echo cm0gL2hvbWUvdGVzdC9hdG9taWMtcmVkLXRlYW0vZXhlY3V0aW9uLWZyYW1ld29ya3MvY29udHJpYi9weXRob24vdGVtcC5weQo= > ~/output/encoded.dat"
+      cat ~/output/encoded.dat | base64 -d > ~/output/art.sh
+      chmod +x ~/output/art.sh
+      ~/output/art.sh
+

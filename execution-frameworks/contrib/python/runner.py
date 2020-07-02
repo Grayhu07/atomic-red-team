@@ -74,8 +74,9 @@ def load_technique(path_to_dir):
 
 def load_techniques():
     """Loads multiple techniques from the 'atomics' directory."""
-    load_list = ['Include','final','escalation','execution','collection','command&control','credential_access',\
-'defence_evasion','discovery','exfiltration','lateral_movement','persistence']
+    '''load_list = ['Include','final','escalation','execution','collection','command&control','credential_access',\
+'defence_evasion','discovery','exfiltration','lateral_movement','persistence']'''
+    load_list = ['demo']
     techniques = {}
 
     # Get path to atomics directory.
