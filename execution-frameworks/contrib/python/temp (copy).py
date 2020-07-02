@@ -5,8 +5,7 @@ import sys
 sys.path.insert(1,'./execution-frameworks/contrib/python')
 import runner
 
-
-technique = runner.AtomicRunner()
-technique.execute('T1027', position = 0)
+#technique = runner.AtomicRunner()
+#technique.execute('T1059', position = 0)
 #tmp = '{"temp: temp"}'
-#print(tmp)
+print('hello')
