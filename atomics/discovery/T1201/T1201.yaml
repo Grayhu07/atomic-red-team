@@ -3,19 +3,6 @@ attack_technique: T1201
 display_name: Password Policy Discovery 
 
 atomic_tests:
-- name: Examine password complexity policy - Ubuntu
-  description: |
-    Lists the password complexity policy to console on Ubuntu Linux.
-
-  supported_platforms:
-    - linux
-  output:
-    file: ~/output/pwd_policy.txt
-  executor:
-    name: bash
-    command: |
-      cat /etc/pam.d/common-password >> ~/output/pwd_policy.txt
-
 - name: Examine password complexity policy - CentOS/RHEL 7.x
   description: |
     Lists the password complexity policy to console on CentOS/RHEL 7.x Linux.
@@ -30,11 +17,12 @@ atomic_tests:
         if [ $(rpm -q --queryformat '%{VERSION}') -eq "7" ]; then exit /b 0; else exit /b 1; fi;
       get_prereq_command: |
         echo Please run from CentOS or RHEL v7
-
+  output:
+    file: ~/output/pwd_policy.txt
   executor:
     name: bash
     command: |
-      cat /etc/security/pwquality.conf
+      cat /etc/security/pwquality.conf >> ~/output/pwd_policy.txt
 
 - name: Examine password complexity policy - CentOS/RHEL 6.x
   description: |

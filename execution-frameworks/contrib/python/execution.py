@@ -9,7 +9,7 @@ import json
 import argparse
 
 
-load_path = '/home/test/atomic-red-team/atomics'
+load_path = '/root/atomic-red-team/atomics'
 yaml = ruamel.yaml.YAML()
 
 def parseArguments():
@@ -87,35 +87,42 @@ if __name__ == '__main__':
 	inputs = []
 	payload_list = []
 	test_list = []
-	i=0
+	times=0
 	flag = False
 	index_list = ['collection','command&control','discovery','defence_evasion','execution','credential_access','escalation',\
 'exfiltration','persistence']
-	attack_list=index_list+['Include','Include','final']
+	attack_list=index_list+['Include','final']
 	#test_list = ['T1113','T1090','T1059','T1139','T1146','T1166','T1156']
 	#index_list = ['collection','command&control','credential_access','defence_evasion','final']
-	random_test(index_list,test_list)
-	temp_list = ['T1146','T1099','T0000']
-	test_list = test_list + temp_list
-	print(test_list)
-	#index_list = ['persistence']
-	#test_list = ['T1501']
+	while times<1:
+		i=0
+		random_test(index_list,test_list)
+		temp_list = ['T1099','T0000']
+		test_list = test_list + temp_list
+		print(test_list)
+		#index_list = ['persistence']
+		#test_list = ['T1501']
 #for passing file name using parameter, can preload all required name of args and get payload value dynamically. (need implement).
-	while flag == False and i<len(attack_list):
-		relative = os.path.join(load_path,attack_list[i])
-		test_path = os.path.join(relative,test_list[i],test_list[i]+'.yaml')
-		normalize = os.path.normpath(test_path)
-		list_doc = load_yaml_file(normalize)
-		output = get_payload(list_doc,0)
-		#parameter = set_parameter(inputs,payload_list,i)
-		#print(parameter)
-		#print('running test {}, this test will set specific file uid').format
-		flag = technique.execute(test_list[i],position=0)
-		if flag:
-			print('Success on test ',test_list[i])
-			flag = False
-		else:
-			print('Failed and skip')
-		i+=1
-	os.remove(os.path.join('./techniques_hash.db'))
+		while flag == False and i<len(attack_list):
+			relative = os.path.join(load_path,attack_list[i])
+			test_path = os.path.join(relative,test_list[i],test_list[i]+'.yaml')
+			normalize = os.path.normpath(test_path)
+			list_doc = load_yaml_file(normalize)
+			output = get_payload(list_doc,0)
+			#parameter = set_parameter(inputs,payload_list,i)
+			#print(parameter)
+			#print('running test {}, this test will set specific file uid').format
+			flag = technique.execute(test_list[i],position=0)
+			if flag:
+				print('Success on test ',test_list[i])
+				flag = False
+			else:
+				print('Failed and skip')
+			i+=1
+		os.remove(os.path.join('./techniques_hash.db'))
+		with open('test_list.txt','w') as f:
+			for item in test_list:
+				f.write('%s, '% item)
+		test_list=[]
+		times+=1
 	print('Finish test')

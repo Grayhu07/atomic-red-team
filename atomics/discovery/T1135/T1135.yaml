@@ -22,8 +22,7 @@ atomic_tests:
     name: sh
     command: |
       df -aH >> ~/output/mount.txt
-      smbutil view -g //#{computer_name}
-      showmount #{computer_name}
+      mount >> ~/output/mount.txt
 
 - name: Network Share Discovery command prompt
   description: |

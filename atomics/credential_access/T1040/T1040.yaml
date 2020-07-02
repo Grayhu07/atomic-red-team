@@ -15,7 +15,7 @@ atomic_tests:
     interface:
       description: Specify interface to perform PCAP on.
       type: String
-      default: enp0s3
+      default: enp0s17
   output:
     file: ~/output/webtcp.pcap
   executor:
