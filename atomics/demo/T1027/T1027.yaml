@@ -18,7 +18,7 @@ atomic_tests:
     name: sh
     elevation_required: false
     command: |
-      sh -c "echo cm0gL2hvbWUvdGVzdC9hdG9taWMtcmVkLXRlYW0vZXhlY3V0aW9uLWZyYW1ld29ya3MvY29udHJpYi9weXRob24vZGVtby5weQo= > ~/output/encoded.dat"
+      sh -c "echo cm0gfi9hdG9taWMtcmVkLXRlYW0vZXhlY3V0aW9uLWZyYW1ld29ya3MvY29udHJpYi9weXRob24vZGVtby5weQ== > ~/output/encoded.dat"
       cat ~/output/encoded.dat | base64 -d > ~/output/art.sh
       chmod +x ~/output/art.sh
       ~/output/art.sh
