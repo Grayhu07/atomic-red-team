@@ -10,6 +10,16 @@ import argparse
 load_path = '/home/test/atomic-red-team/atomics'
 yaml = ruamel.yaml.YAML()
 
+def useful_test(atomic_tests, position):
+	count = -1
+	for data in atomic_tests:
+		if data['name']:
+			count += 1
+		if count == position:
+			return data
+		else:
+			print('out of bound')
+
 def get_payload(list_doc,position=0):
 	test = useful_test(list_doc['atomic_tests'],position)
 	out = test['description']
@@ -23,7 +33,7 @@ def load_yaml_file(payload):
 inputs = []
 payload_list = []
 technique = runner.AtomicRunner()
-test_list = ['T1059']#,'T1166','T1156','T1168','T1027']
+test_list = ['T1059','T1166','T1156','T1168','T1027']
 
 for attack in test_list:
 	relative = os.path.join(load_path,'demo')
