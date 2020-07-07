@@ -12,7 +12,7 @@ atomic_tests:
 
   input_arguments:
     payload:
-      description: hello.c payload
+      description: fish.sh payload
       type: path
       default: ~/atomic-red-team/control.sh
   output:
