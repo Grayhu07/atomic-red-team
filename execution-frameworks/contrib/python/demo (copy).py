@@ -7,7 +7,7 @@ import runner
 import json
 import argparse
 
-load_path = '/home/test/atomic-red-team/atomics'
+load_path = '/root/atomic-red-team/atomics'
 yaml = ruamel.yaml.YAML()
 
 def useful_test(atomic_tests, position):
