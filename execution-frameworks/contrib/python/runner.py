@@ -509,7 +509,7 @@ def load_hash_db():
         print("Could not decode the JSON Hash DB!  Please fix the syntax of the file.")
         sys.exit(3)
     except IOError:
-        print("File did not exist.  Created a new empty Hash DB.")
+        #print("File did not exist.  Created a new empty Hash DB.")
         empty_db = {}
         write_hash_db(hash_db_path, empty_db)
         return empty_db
@@ -529,7 +529,7 @@ def check_hash_db(hash_db_path, executor_data, technique_name, executor_position
 
     # Tries to load the technique section.
     if not technique_name in hash_db:
-        print("Technique section '{}' did not exist.  Creating.".format(technique_name))
+        #print("Technique section '{}' did not exist.  Creating.".format(technique_name))
         # Create section
         hash_db[technique_name] = {}
 

@@ -9,7 +9,8 @@ import json
 import argparse
 
 
-load_path = '/root/atomic-red-team/atomics'
+#load_path = '/root/atomic-red-team/atomics'
+load_path = os.path.join("..","..","..","atomics")
 yaml = ruamel.yaml.YAML()
 
 def parseArguments():
@@ -61,6 +62,17 @@ def get_payload(list_doc,position=0,new_payload=None):
 		result = new_payload
 	return result
 
+def get_description(list_doc,position=0):
+	test = useful_test(list_doc['atomic_tests'],position)
+	out = test['description']
+	return out
+
+def get_command(list_doc,position=0):
+	test = useful_test(list_doc['atomic_tests'],position)
+	executor = test['executor']
+	command = executor['command']
+	return command
+
 def set_parameter(inputs,arguments,index):
 	args = parseArguments()
 	parameter = ''
@@ -89,12 +101,12 @@ if __name__ == '__main__':
 	test_list = []
 	times=0
 	flag = False
-	index_list = ['collection','command&control','discovery','defence_evasion','execution','credential_access','escalation',\
-'exfiltration','persistence']
+	index_list = ['command&control','escalation', 'persistence','execution','credential_access','discovery','defence_evasion','lateral_movement',\
+'collection','exfiltration']
 	attack_list=index_list+['Include','final']
 	#test_list = ['T1113','T1090','T1059','T1139','T1146','T1166','T1156']
 	#index_list = ['collection','command&control','credential_access','defence_evasion','final']
-	while times<1:
+	while times<1000:
 		i=0
 		random_test(index_list,test_list)
 		temp_list = ['T1099','T0000']
@@ -113,14 +125,23 @@ if __name__ == '__main__':
 			#print(parameter)
 			#print('running test {}, this test will set specific file uid').format
 			flag = technique.execute(test_list[i],position=0)
+			description =  get_description(list_doc,0)
+			command = get_command(list_doc,0)
 			if flag:
 				print('Success on test ',test_list[i])
 				flag = False
 			else:
 				print('Failed and skip')
+			print(description)
+			print("Command used:")
+			print(command)
 			i+=1
 		os.remove(os.path.join('./techniques_hash.db'))
-		with open('test_list.txt','w') as f:
+		with open('test_list.txt','a+') as f:
+			f.seek(0)
+			data = f.read(100)
+			if len(data) > 0:
+				f.write("\n")
 			for item in test_list:
 				f.write('%s, '% item)
 		test_list=[]
