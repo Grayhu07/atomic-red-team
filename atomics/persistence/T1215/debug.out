@@ -1,0 +1,11710 @@
+ID: 1
+time: "14:19:39.396240547"
+subtype: 5
+size: 4
+paras {
+  intValue: 2098
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 257
+time: "14:19:39.396257386"
+subtype: 5
+size: 4
+paras {
+  intValue: 9
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"rcu_sched\""
+}
+paras {
+  stringValue: "\"rcu_sched\""
+}
+
+ID: 513
+time: "14:19:39.396261953"
+subtype: 5
+size: 4
+paras {
+  intValue: 19
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"ksoftirqd/2\""
+}
+paras {
+  stringValue: "\"ksoftirqd/2\""
+}
+
+ID: 769
+time: "14:19:39.396266614"
+subtype: 5
+size: 4
+paras {
+  intValue: 0
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"swapper/2\""
+}
+paras {
+  stringValue: "\"swapper/2\""
+}
+
+ID: 1025
+time: "14:19:39.396442992"
+subtype: 5
+size: 4
+paras {
+  intValue: 2073
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 1281
+time: "14:19:39.403790810"
+subtype: 5
+size: 4
+paras {
+  intValue: 1
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 1537
+time: "14:19:39.403791936"
+subtype: 5
+size: 4
+paras {
+  intValue: 2
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"kthreadd\""
+}
+paras {
+  stringValue: "\"kthreadd\""
+}
+
+ID: 1793
+time: "14:19:39.403792769"
+subtype: 5
+size: 4
+paras {
+  intValue: 4
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/0:0H\""
+}
+paras {
+  stringValue: "\"kworker/0:0H\""
+}
+
+ID: 2049
+time: "14:19:39.403793623"
+subtype: 5
+size: 4
+paras {
+  intValue: 6
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"ksoftirqd/0\""
+}
+paras {
+  stringValue: "\"ksoftirqd/0\""
+}
+
+ID: 2305
+time: "14:19:39.403794478"
+subtype: 5
+size: 4
+paras {
+  intValue: 7
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"migration/0\""
+}
+paras {
+  stringValue: "\"migration/0\""
+}
+
+ID: 2561
+time: "14:19:39.403795292"
+subtype: 5
+size: 4
+paras {
+  intValue: 8
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"rcu_bh\""
+}
+paras {
+  stringValue: "\"rcu_bh\""
+}
+
+ID: 2817
+time: "14:19:39.403796035"
+subtype: 5
+size: 4
+paras {
+  intValue: 9
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"rcu_sched\""
+}
+paras {
+  stringValue: "\"rcu_sched\""
+}
+
+ID: 3073
+time: "14:19:39.403796650"
+subtype: 5
+size: 4
+paras {
+  intValue: 10
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"lru-add-drain\""
+}
+paras {
+  stringValue: "\"lru-add-drain\""
+}
+
+ID: 3329
+time: "14:19:39.403797530"
+subtype: 5
+size: 4
+paras {
+  intValue: 11
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"watchdog/0\""
+}
+paras {
+  stringValue: "\"watchdog/0\""
+}
+
+ID: 3585
+time: "14:19:39.403798198"
+subtype: 5
+size: 4
+paras {
+  intValue: 12
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"watchdog/1\""
+}
+paras {
+  stringValue: "\"watchdog/1\""
+}
+
+ID: 3841
+time: "14:19:39.403799041"
+subtype: 5
+size: 4
+paras {
+  intValue: 13
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"migration/1\""
+}
+paras {
+  stringValue: "\"migration/1\""
+}
+
+ID: 4097
+time: "14:19:39.403799669"
+subtype: 5
+size: 4
+paras {
+  intValue: 14
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"ksoftirqd/1\""
+}
+paras {
+  stringValue: "\"ksoftirqd/1\""
+}
+
+ID: 4353
+time: "14:19:39.403800435"
+subtype: 5
+size: 4
+paras {
+  intValue: 16
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/1:0H\""
+}
+paras {
+  stringValue: "\"kworker/1:0H\""
+}
+
+ID: 4609
+time: "14:19:39.403801323"
+subtype: 5
+size: 4
+paras {
+  intValue: 17
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"watchdog/2\""
+}
+paras {
+  stringValue: "\"watchdog/2\""
+}
+
+ID: 4865
+time: "14:19:39.403802171"
+subtype: 5
+size: 4
+paras {
+  intValue: 18
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"migration/2\""
+}
+paras {
+  stringValue: "\"migration/2\""
+}
+
+ID: 5121
+time: "14:19:39.403802871"
+subtype: 5
+size: 4
+paras {
+  intValue: 19
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"ksoftirqd/2\""
+}
+paras {
+  stringValue: "\"ksoftirqd/2\""
+}
+
+ID: 5377
+time: "14:19:39.403803489"
+subtype: 5
+size: 4
+paras {
+  intValue: 21
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/2:0H\""
+}
+paras {
+  stringValue: "\"kworker/2:0H\""
+}
+
+ID: 5633
+time: "14:19:39.403804198"
+subtype: 5
+size: 4
+paras {
+  intValue: 22
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"watchdog/3\""
+}
+paras {
+  stringValue: "\"watchdog/3\""
+}
+
+ID: 5889
+time: "14:19:39.403804809"
+subtype: 5
+size: 4
+paras {
+  intValue: 23
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"migration/3\""
+}
+paras {
+  stringValue: "\"migration/3\""
+}
+
+ID: 6145
+time: "14:19:39.403805534"
+subtype: 5
+size: 4
+paras {
+  intValue: 24
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"ksoftirqd/3\""
+}
+paras {
+  stringValue: "\"ksoftirqd/3\""
+}
+
+ID: 6401
+time: "14:19:39.403806356"
+subtype: 5
+size: 4
+paras {
+  intValue: 26
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/3:0H\""
+}
+paras {
+  stringValue: "\"kworker/3:0H\""
+}
+
+ID: 6657
+time: "14:19:39.403807173"
+subtype: 5
+size: 4
+paras {
+  intValue: 28
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kdevtmpfs\""
+}
+paras {
+  stringValue: "\"kdevtmpfs\""
+}
+
+ID: 6913
+time: "14:19:39.403808025"
+subtype: 5
+size: 4
+paras {
+  intValue: 29
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"netns\""
+}
+paras {
+  stringValue: "\"netns\""
+}
+
+ID: 7169
+time: "14:19:39.403808850"
+subtype: 5
+size: 4
+paras {
+  intValue: 30
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"khungtaskd\""
+}
+paras {
+  stringValue: "\"khungtaskd\""
+}
+
+ID: 7425
+time: "14:19:39.403809681"
+subtype: 5
+size: 4
+paras {
+  intValue: 31
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"writeback\""
+}
+paras {
+  stringValue: "\"writeback\""
+}
+
+ID: 7681
+time: "14:19:39.403810472"
+subtype: 5
+size: 4
+paras {
+  intValue: 32
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kintegrityd\""
+}
+paras {
+  stringValue: "\"kintegrityd\""
+}
+
+ID: 7937
+time: "14:19:39.403811155"
+subtype: 5
+size: 4
+paras {
+  intValue: 33
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"bioset\""
+}
+paras {
+  stringValue: "\"bioset\""
+}
+
+ID: 8193
+time: "14:19:39.403812117"
+subtype: 5
+size: 4
+paras {
+  intValue: 34
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"bioset\""
+}
+paras {
+  stringValue: "\"bioset\""
+}
+
+ID: 8449
+time: "14:19:39.403812865"
+subtype: 5
+size: 4
+paras {
+  intValue: 35
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"bioset\""
+}
+paras {
+  stringValue: "\"bioset\""
+}
+
+ID: 8705
+time: "14:19:39.403813877"
+subtype: 5
+size: 4
+paras {
+  intValue: 36
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kblockd\""
+}
+paras {
+  stringValue: "\"kblockd\""
+}
+
+ID: 8961
+time: "14:19:39.403814575"
+subtype: 5
+size: 4
+paras {
+  intValue: 37
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"md\""
+}
+paras {
+  stringValue: "\"md\""
+}
+
+ID: 9217
+time: "14:19:39.403815402"
+subtype: 5
+size: 4
+paras {
+  intValue: 38
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"edac-poller\""
+}
+paras {
+  stringValue: "\"edac-poller\""
+}
+
+ID: 9473
+time: "14:19:39.403816126"
+subtype: 5
+size: 4
+paras {
+  intValue: 39
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"watchdogd\""
+}
+paras {
+  stringValue: "\"watchdogd\""
+}
+
+ID: 9729
+time: "14:19:39.403817054"
+subtype: 5
+size: 4
+paras {
+  intValue: 45
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kswapd0\""
+}
+paras {
+  stringValue: "\"kswapd0\""
+}
+
+ID: 9985
+time: "14:19:39.403817947"
+subtype: 5
+size: 4
+paras {
+  intValue: 46
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"ksmd\""
+}
+paras {
+  stringValue: "\"ksmd\""
+}
+
+ID: 10241
+time: "14:19:39.403818835"
+subtype: 5
+size: 4
+paras {
+  intValue: 47
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"khugepaged\""
+}
+paras {
+  stringValue: "\"khugepaged\""
+}
+
+ID: 10497
+time: "14:19:39.403819695"
+subtype: 5
+size: 4
+paras {
+  intValue: 48
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"crypto\""
+}
+paras {
+  stringValue: "\"crypto\""
+}
+
+ID: 10753
+time: "14:19:39.403820541"
+subtype: 5
+size: 4
+paras {
+  intValue: 56
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kthrotld\""
+}
+paras {
+  stringValue: "\"kthrotld\""
+}
+
+ID: 11009
+time: "14:19:39.403821335"
+subtype: 5
+size: 4
+paras {
+  intValue: 58
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kmpath_rdacd\""
+}
+paras {
+  stringValue: "\"kmpath_rdacd\""
+}
+
+ID: 11265
+time: "14:19:39.403822350"
+subtype: 5
+size: 4
+paras {
+  intValue: 59
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kaluad\""
+}
+paras {
+  stringValue: "\"kaluad\""
+}
+
+ID: 11521
+time: "14:19:39.403823331"
+subtype: 5
+size: 4
+paras {
+  intValue: 60
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kpsmoused\""
+}
+paras {
+  stringValue: "\"kpsmoused\""
+}
+
+ID: 11777
+time: "14:19:39.403824351"
+subtype: 5
+size: 4
+paras {
+  intValue: 61
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"ipv6_addrconf\""
+}
+paras {
+  stringValue: "\"ipv6_addrconf\""
+}
+
+ID: 12033
+time: "14:19:39.403825196"
+subtype: 5
+size: 4
+paras {
+  intValue: 75
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"deferwq\""
+}
+paras {
+  stringValue: "\"deferwq\""
+}
+
+ID: 12289
+time: "14:19:39.403826224"
+subtype: 5
+size: 4
+paras {
+  intValue: 115
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kauditd\""
+}
+paras {
+  stringValue: "\"kauditd\""
+}
+
+ID: 12545
+time: "14:19:39.403827307"
+subtype: 5
+size: 4
+paras {
+  intValue: 305
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"mpt_poll_0\""
+}
+paras {
+  stringValue: "\"mpt_poll_0\""
+}
+
+ID: 12801
+time: "14:19:39.403828548"
+subtype: 5
+size: 4
+paras {
+  intValue: 318
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"mpt/0\""
+}
+paras {
+  stringValue: "\"mpt/0\""
+}
+
+ID: 13057
+time: "14:19:39.403829738"
+subtype: 5
+size: 4
+paras {
+  intValue: 319
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"ata_sff\""
+}
+paras {
+  stringValue: "\"ata_sff\""
+}
+
+ID: 13313
+time: "14:19:39.403830668"
+subtype: 5
+size: 4
+paras {
+  intValue: 431
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"scsi_eh_0\""
+}
+paras {
+  stringValue: "\"scsi_eh_0\""
+}
+
+ID: 13569
+time: "14:19:39.403831550"
+subtype: 5
+size: 4
+paras {
+  intValue: 432
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"scsi_tmf_0\""
+}
+paras {
+  stringValue: "\"scsi_tmf_0\""
+}
+
+ID: 13825
+time: "14:19:39.403832413"
+subtype: 5
+size: 4
+paras {
+  intValue: 440
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"scsi_eh_1\""
+}
+paras {
+  stringValue: "\"scsi_eh_1\""
+}
+
+ID: 14081
+time: "14:19:39.403833186"
+subtype: 5
+size: 4
+paras {
+  intValue: 441
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"scsi_tmf_1\""
+}
+paras {
+  stringValue: "\"scsi_tmf_1\""
+}
+
+ID: 14337
+time: "14:19:39.403834531"
+subtype: 5
+size: 4
+paras {
+  intValue: 442
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"scsi_eh_2\""
+}
+paras {
+  stringValue: "\"scsi_eh_2\""
+}
+
+ID: 14593
+time: "14:19:39.403835605"
+subtype: 5
+size: 4
+paras {
+  intValue: 443
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"scsi_tmf_2\""
+}
+paras {
+  stringValue: "\"scsi_tmf_2\""
+}
+
+ID: 14849
+time: "14:19:39.403836568"
+subtype: 5
+size: 4
+paras {
+  intValue: 511
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kdmflush\""
+}
+paras {
+  stringValue: "\"kdmflush\""
+}
+
+ID: 15105
+time: "14:19:39.403837470"
+subtype: 5
+size: 4
+paras {
+  intValue: 512
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"bioset\""
+}
+paras {
+  stringValue: "\"bioset\""
+}
+
+ID: 15361
+time: "14:19:39.403838551"
+subtype: 5
+size: 4
+paras {
+  intValue: 521
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kdmflush\""
+}
+paras {
+  stringValue: "\"kdmflush\""
+}
+
+ID: 15617
+time: "14:19:39.403839502"
+subtype: 5
+size: 4
+paras {
+  intValue: 522
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"bioset\""
+}
+paras {
+  stringValue: "\"bioset\""
+}
+
+ID: 15873
+time: "14:19:39.403840482"
+subtype: 5
+size: 4
+paras {
+  intValue: 536
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"bioset\""
+}
+paras {
+  stringValue: "\"bioset\""
+}
+
+ID: 16129
+time: "14:19:39.403841378"
+subtype: 5
+size: 4
+paras {
+  intValue: 537
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfsalloc\""
+}
+paras {
+  stringValue: "\"xfsalloc\""
+}
+
+ID: 16385
+time: "14:19:39.403842381"
+subtype: 5
+size: 4
+paras {
+  intValue: 538
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs_mru_cache\""
+}
+paras {
+  stringValue: "\"xfs_mru_cache\""
+}
+
+ID: 16641
+time: "14:19:39.403843291"
+subtype: 5
+size: 4
+paras {
+  intValue: 539
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-buf/dm-0\""
+}
+paras {
+  stringValue: "\"xfs-buf/dm-0\""
+}
+
+ID: 16897
+time: "14:19:39.403844031"
+subtype: 5
+size: 4
+paras {
+  intValue: 540
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-data/dm-0\""
+}
+paras {
+  stringValue: "\"xfs-data/dm-0\""
+}
+
+ID: 17153
+time: "14:19:39.403844988"
+subtype: 5
+size: 4
+paras {
+  intValue: 541
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-conv/dm-0\""
+}
+paras {
+  stringValue: "\"xfs-conv/dm-0\""
+}
+
+ID: 17409
+time: "14:19:39.403845900"
+subtype: 5
+size: 4
+paras {
+  intValue: 542
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-cil/dm-0\""
+}
+paras {
+  stringValue: "\"xfs-cil/dm-0\""
+}
+
+ID: 17665
+time: "14:19:39.403846710"
+subtype: 5
+size: 4
+paras {
+  intValue: 543
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-reclaim/dm-\""
+}
+paras {
+  stringValue: "\"xfs-reclaim/dm-\""
+}
+
+ID: 17921
+time: "14:19:39.403847563"
+subtype: 5
+size: 4
+paras {
+  intValue: 544
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-log/dm-0\""
+}
+paras {
+  stringValue: "\"xfs-log/dm-0\""
+}
+
+ID: 18177
+time: "14:19:39.403848467"
+subtype: 5
+size: 4
+paras {
+  intValue: 545
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-eofblocks/d\""
+}
+paras {
+  stringValue: "\"xfs-eofblocks/d\""
+}
+
+ID: 18433
+time: "14:19:39.403849428"
+subtype: 5
+size: 4
+paras {
+  intValue: 546
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfsaild/dm-0\""
+}
+paras {
+  stringValue: "\"xfsaild/dm-0\""
+}
+
+ID: 18689
+time: "14:19:39.403850138"
+subtype: 5
+size: 4
+paras {
+  intValue: 547
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/1:1H\""
+}
+paras {
+  stringValue: "\"kworker/1:1H\""
+}
+
+ID: 18945
+time: "14:19:39.403851180"
+subtype: 5
+size: 4
+paras {
+  intValue: 627
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd-journal\""
+}
+paras {
+  stringValue: "\"systemd-journal\""
+}
+
+ID: 19201
+time: "14:19:39.403852098"
+subtype: 5
+size: 4
+paras {
+  intValue: 650
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lvmetad\""
+}
+paras {
+  stringValue: "\"lvmetad\""
+}
+
+ID: 19457
+time: "14:19:39.403853135"
+subtype: 5
+size: 4
+paras {
+  intValue: 654
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd-udevd\""
+}
+paras {
+  stringValue: "\"systemd-udevd\""
+}
+
+ID: 19713
+time: "14:19:39.403853932"
+subtype: 5
+size: 4
+paras {
+  intValue: 656
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/3:1H\""
+}
+paras {
+  stringValue: "\"kworker/3:1H\""
+}
+
+ID: 19969
+time: "14:19:39.403855037"
+subtype: 5
+size: 4
+paras {
+  intValue: 841
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-buf/sda1\""
+}
+paras {
+  stringValue: "\"xfs-buf/sda1\""
+}
+
+ID: 20225
+time: "14:19:39.403856020"
+subtype: 5
+size: 4
+paras {
+  intValue: 842
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-data/sda1\""
+}
+paras {
+  stringValue: "\"xfs-data/sda1\""
+}
+
+ID: 20481
+time: "14:19:39.403856920"
+subtype: 5
+size: 4
+paras {
+  intValue: 843
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-conv/sda1\""
+}
+paras {
+  stringValue: "\"xfs-conv/sda1\""
+}
+
+ID: 20737
+time: "14:19:39.403857808"
+subtype: 5
+size: 4
+paras {
+  intValue: 844
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-cil/sda1\""
+}
+paras {
+  stringValue: "\"xfs-cil/sda1\""
+}
+
+ID: 20993
+time: "14:19:39.403858887"
+subtype: 5
+size: 4
+paras {
+  intValue: 845
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-reclaim/sda\""
+}
+paras {
+  stringValue: "\"xfs-reclaim/sda\""
+}
+
+ID: 21249
+time: "14:19:39.403859937"
+subtype: 5
+size: 4
+paras {
+  intValue: 846
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-log/sda1\""
+}
+paras {
+  stringValue: "\"xfs-log/sda1\""
+}
+
+ID: 21505
+time: "14:19:39.403861131"
+subtype: 5
+size: 4
+paras {
+  intValue: 847
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfs-eofblocks/s\""
+}
+paras {
+  stringValue: "\"xfs-eofblocks/s\""
+}
+
+ID: 21761
+time: "14:19:39.403862300"
+subtype: 5
+size: 4
+paras {
+  intValue: 848
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"xfsaild/sda1\""
+}
+paras {
+  stringValue: "\"xfsaild/sda1\""
+}
+
+ID: 22017
+time: "14:19:39.403863288"
+subtype: 5
+size: 4
+paras {
+  intValue: 860
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"jbd2/sdb1-8\""
+}
+paras {
+  stringValue: "\"jbd2/sdb1-8\""
+}
+
+ID: 22273
+time: "14:19:39.403864172"
+subtype: 5
+size: 4
+paras {
+  intValue: 861
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"ext4-rsv-conver\""
+}
+paras {
+  stringValue: "\"ext4-rsv-conver\""
+}
+
+ID: 22529
+time: "14:19:39.403865121"
+subtype: 5
+size: 4
+paras {
+  intValue: 885
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"auditd\""
+}
+paras {
+  stringValue: "\"auditd\""
+}
+
+ID: 22785
+time: "14:19:39.403866258"
+subtype: 5
+size: 4
+paras {
+  intValue: 886
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"auditd\""
+}
+paras {
+  stringValue: "\"auditd\""
+}
+
+ID: 23041
+time: "14:19:39.403867044"
+subtype: 5
+size: 4
+paras {
+  intValue: 918
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"irqbalance\""
+}
+paras {
+  stringValue: "\"irqbalance\""
+}
+
+ID: 23297
+time: "14:19:39.403867912"
+subtype: 5
+size: 4
+paras {
+  intValue: 925
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"polkitd\""
+}
+paras {
+  stringValue: "\"polkitd\""
+}
+
+ID: 23553
+time: "14:19:39.403868902"
+subtype: 5
+size: 4
+paras {
+  intValue: 982
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"gmain\""
+}
+paras {
+  stringValue: "\"gmain\""
+}
+
+ID: 23809
+time: "14:19:39.403869761"
+subtype: 5
+size: 4
+paras {
+  intValue: 984
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"gdbus\""
+}
+paras {
+  stringValue: "\"gdbus\""
+}
+
+ID: 24065
+time: "14:19:39.403870658"
+subtype: 5
+size: 4
+paras {
+  intValue: 985
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"polkitd\""
+}
+paras {
+  stringValue: "\"polkitd\""
+}
+
+ID: 24321
+time: "14:19:39.403871534"
+subtype: 5
+size: 4
+paras {
+  intValue: 1002
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"JS GC Helper\""
+}
+paras {
+  stringValue: "\"JS GC Helper\""
+}
+
+ID: 24577
+time: "14:19:39.403872377"
+subtype: 5
+size: 4
+paras {
+  intValue: 1009
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"JS Sour~ Thread\""
+}
+paras {
+  stringValue: "\"JS Sour~ Thread\""
+}
+
+ID: 24833
+time: "14:19:39.403873305"
+subtype: 5
+size: 4
+paras {
+  intValue: 1010
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"polkitd\""
+}
+paras {
+  stringValue: "\"polkitd\""
+}
+
+ID: 25089
+time: "14:19:39.403874288"
+subtype: 5
+size: 4
+paras {
+  intValue: 928
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd-logind\""
+}
+paras {
+  stringValue: "\"systemd-logind\""
+}
+
+ID: 25345
+time: "14:19:39.403875196"
+subtype: 5
+size: 4
+paras {
+  intValue: 929
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"dbus-daemon\""
+}
+paras {
+  stringValue: "\"dbus-daemon\""
+}
+
+ID: 25601
+time: "14:19:39.403876301"
+subtype: 5
+size: 4
+paras {
+  intValue: 983
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"dbus-daemon\""
+}
+paras {
+  stringValue: "\"dbus-daemon\""
+}
+
+ID: 25857
+time: "14:19:39.403877070"
+subtype: 5
+size: 4
+paras {
+  intValue: 969
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"chronyd\""
+}
+paras {
+  stringValue: "\"chronyd\""
+}
+
+ID: 26113
+time: "14:19:39.403877839"
+subtype: 5
+size: 4
+paras {
+  intValue: 986
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"NetworkManager\""
+}
+paras {
+  stringValue: "\"NetworkManager\""
+}
+
+ID: 26369
+time: "14:19:39.403878668"
+subtype: 5
+size: 4
+paras {
+  intValue: 1023
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"gmain\""
+}
+paras {
+  stringValue: "\"gmain\""
+}
+
+ID: 26625
+time: "14:19:39.403879385"
+subtype: 5
+size: 4
+paras {
+  intValue: 1029
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"gdbus\""
+}
+paras {
+  stringValue: "\"gdbus\""
+}
+
+ID: 26881
+time: "14:19:39.403880438"
+subtype: 5
+size: 4
+paras {
+  intValue: 998
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"atd\""
+}
+paras {
+  stringValue: "\"atd\""
+}
+
+ID: 27137
+time: "14:19:39.403881214"
+subtype: 5
+size: 4
+paras {
+  intValue: 1003
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"crond\""
+}
+paras {
+  stringValue: "\"crond\""
+}
+
+ID: 27393
+time: "14:19:39.403882069"
+subtype: 5
+size: 4
+paras {
+  intValue: 1008
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"agetty\""
+}
+paras {
+  stringValue: "\"agetty\""
+}
+
+ID: 27649
+time: "14:19:39.403882920"
+subtype: 5
+size: 4
+paras {
+  intValue: 1033
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/2:1H\""
+}
+paras {
+  stringValue: "\"kworker/2:1H\""
+}
+
+ID: 27905
+time: "14:19:39.403883786"
+subtype: 5
+size: 4
+paras {
+  intValue: 1034
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/0:1H\""
+}
+paras {
+  stringValue: "\"kworker/0:1H\""
+}
+
+ID: 28161
+time: "14:19:39.403884857"
+subtype: 5
+size: 4
+paras {
+  intValue: 1072
+}
+paras {
+  intValue: 986
+}
+paras {
+  stringValue: "\"dhclient\""
+}
+paras {
+  stringValue: "\"dhclient\""
+}
+
+ID: 28417
+time: "14:19:39.403885810"
+subtype: 5
+size: 4
+paras {
+  intValue: 1414
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"tuned\""
+}
+paras {
+  stringValue: "\"tuned\""
+}
+
+ID: 28673
+time: "14:19:39.403886824"
+subtype: 5
+size: 4
+paras {
+  intValue: 1908
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"gmain\""
+}
+paras {
+  stringValue: "\"gmain\""
+}
+
+ID: 28929
+time: "14:19:39.403887640"
+subtype: 5
+size: 4
+paras {
+  intValue: 1909
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"tuned\""
+}
+paras {
+  stringValue: "\"tuned\""
+}
+
+ID: 29185
+time: "14:19:39.403888729"
+subtype: 5
+size: 4
+paras {
+  intValue: 1911
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"tuned\""
+}
+paras {
+  stringValue: "\"tuned\""
+}
+
+ID: 29441
+time: "14:19:39.403889636"
+subtype: 5
+size: 4
+paras {
+  intValue: 1912
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"tuned\""
+}
+paras {
+  stringValue: "\"tuned\""
+}
+
+ID: 29697
+time: "14:19:39.403890637"
+subtype: 5
+size: 4
+paras {
+  intValue: 1415
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"sshd\""
+}
+paras {
+  stringValue: "\"sshd\""
+}
+
+ID: 29953
+time: "14:19:39.403891596"
+subtype: 5
+size: 4
+paras {
+  intValue: 1588
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"master\""
+}
+paras {
+  stringValue: "\"master\""
+}
+
+ID: 30209
+time: "14:19:39.403892643"
+subtype: 5
+size: 4
+paras {
+  intValue: 1590
+}
+paras {
+  intValue: 1588
+}
+paras {
+  stringValue: "\"qmgr\""
+}
+paras {
+  stringValue: "\"qmgr\""
+}
+
+ID: 30465
+time: "14:19:39.403893538"
+subtype: 5
+size: 4
+paras {
+  intValue: 2009
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 30721
+time: "14:19:39.403894373"
+subtype: 5
+size: 4
+paras {
+  intValue: 2011
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 30977
+time: "14:19:39.403895386"
+subtype: 5
+size: 4
+paras {
+  intValue: 2012
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 31233
+time: "14:19:39.403896549"
+subtype: 5
+size: 4
+paras {
+  intValue: 2071
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 31489
+time: "14:19:39.403897571"
+subtype: 5
+size: 4
+paras {
+  intValue: 2072
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 31745
+time: "14:19:39.403898416"
+subtype: 5
+size: 4
+paras {
+  intValue: 2073
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 32001
+time: "14:19:39.403898972"
+subtype: 5
+size: 4
+paras {
+  intValue: 2074
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 32257
+time: "14:19:39.403899835"
+subtype: 5
+size: 4
+paras {
+  intValue: 2075
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 32513
+time: "14:19:39.403900816"
+subtype: 5
+size: 4
+paras {
+  intValue: 2076
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 32769
+time: "14:19:39.403901711"
+subtype: 5
+size: 4
+paras {
+  intValue: 2077
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 33025
+time: "14:19:39.403902469"
+subtype: 5
+size: 4
+paras {
+  intValue: 2078
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 33281
+time: "14:19:39.403903244"
+subtype: 5
+size: 4
+paras {
+  intValue: 2079
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 33537
+time: "14:19:39.403904286"
+subtype: 5
+size: 4
+paras {
+  intValue: 2084
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 33793
+time: "14:19:39.403905094"
+subtype: 5
+size: 4
+paras {
+  intValue: 2101
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+paras {
+  stringValue: "\"lttng-sessiond\""
+}
+
+ID: 34049
+time: "14:19:39.403905798"
+subtype: 5
+size: 4
+paras {
+  intValue: 2010
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-runas\""
+}
+paras {
+  stringValue: "\"lttng-runas\""
+}
+
+ID: 34305
+time: "14:19:39.403906591"
+subtype: 5
+size: 4
+paras {
+  intValue: 2083
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 34561
+time: "14:19:39.403907369"
+subtype: 5
+size: 4
+paras {
+  intValue: 2093
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 34817
+time: "14:19:39.403908197"
+subtype: 5
+size: 4
+paras {
+  intValue: 2095
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 35073
+time: "14:19:39.403908975"
+subtype: 5
+size: 4
+paras {
+  intValue: 2096
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 35329
+time: "14:19:39.403909899"
+subtype: 5
+size: 4
+paras {
+  intValue: 2097
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 35585
+time: "14:19:39.403910664"
+subtype: 5
+size: 4
+paras {
+  intValue: 2098
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 35841
+time: "14:19:39.403911304"
+subtype: 5
+size: 4
+paras {
+  intValue: 2099
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 36097
+time: "14:19:39.403911994"
+subtype: 5
+size: 4
+paras {
+  intValue: 2100
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 36353
+time: "14:19:39.403912963"
+subtype: 5
+size: 4
+paras {
+  intValue: 2124
+}
+paras {
+  intValue: 2009
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+paras {
+  stringValue: "\"lttng-consumerd\""
+}
+
+ID: 36609
+time: "14:19:39.403913893"
+subtype: 5
+size: 4
+paras {
+  intValue: 2094
+}
+paras {
+  intValue: 2083
+}
+paras {
+  stringValue: "\"lttng-runas\""
+}
+paras {
+  stringValue: "\"lttng-runas\""
+}
+
+ID: 36865
+time: "14:19:39.403914883"
+subtype: 5
+size: 4
+paras {
+  intValue: 2183
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 37121
+time: "14:19:39.403915700"
+subtype: 5
+size: 4
+paras {
+  intValue: 2185
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 37377
+time: "14:19:39.403916417"
+subtype: 5
+size: 4
+paras {
+  intValue: 2186
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 37633
+time: "14:19:39.403917271"
+subtype: 5
+size: 4
+paras {
+  intValue: 2187
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 37889
+time: "14:19:39.403918054"
+subtype: 5
+size: 4
+paras {
+  intValue: 2188
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 38145
+time: "14:19:39.403918802"
+subtype: 5
+size: 4
+paras {
+  intValue: 2189
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 38401
+time: "14:19:39.403919448"
+subtype: 5
+size: 4
+paras {
+  intValue: 2190
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 38657
+time: "14:19:39.403920303"
+subtype: 5
+size: 4
+paras {
+  intValue: 2191
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 38913
+time: "14:19:39.403921046"
+subtype: 5
+size: 4
+paras {
+  intValue: 2192
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 39169
+time: "14:19:39.403921938"
+subtype: 5
+size: 4
+paras {
+  intValue: 2216
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+paras {
+  stringValue: "\"lttng-relayd\""
+}
+
+ID: 39425
+time: "14:19:39.403922839"
+subtype: 5
+size: 4
+paras {
+  intValue: 8956
+}
+paras {
+  intValue: 1415
+}
+paras {
+  stringValue: "\"sshd\""
+}
+paras {
+  stringValue: "\"sshd\""
+}
+
+ID: 39681
+time: "14:19:39.403923762"
+subtype: 5
+size: 4
+paras {
+  intValue: 8960
+}
+paras {
+  intValue: 8956
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 39937
+time: "14:19:39.403924714"
+subtype: 5
+size: 4
+paras {
+  intValue: 9651
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/u8:2\""
+}
+paras {
+  stringValue: "\"kworker/u8:2\""
+}
+
+ID: 40193
+time: "14:19:39.403925788"
+subtype: 5
+size: 4
+paras {
+  intValue: 24056
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/3:2\""
+}
+paras {
+  stringValue: "\"kworker/3:2\""
+}
+
+ID: 40449
+time: "14:19:39.403926787"
+subtype: 5
+size: 4
+paras {
+  intValue: 25099
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/1:1\""
+}
+paras {
+  stringValue: "\"kworker/1:1\""
+}
+
+ID: 40705
+time: "14:19:39.403927644"
+subtype: 5
+size: 4
+paras {
+  intValue: 25663
+}
+paras {
+  intValue: 1415
+}
+paras {
+  stringValue: "\"sshd\""
+}
+paras {
+  stringValue: "\"sshd\""
+}
+
+ID: 40961
+time: "14:19:39.403928394"
+subtype: 5
+size: 4
+paras {
+  intValue: 25667
+}
+paras {
+  intValue: 25663
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 41217
+time: "14:19:39.403929237"
+subtype: 5
+size: 4
+paras {
+  intValue: 26041
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/2:0\""
+}
+paras {
+  stringValue: "\"kworker/2:0\""
+}
+
+ID: 41473
+time: "14:19:39.403930029"
+subtype: 5
+size: 4
+paras {
+  intValue: 26433
+}
+paras {
+  intValue: 1415
+}
+paras {
+  stringValue: "\"sshd\""
+}
+paras {
+  stringValue: "\"sshd\""
+}
+
+ID: 41729
+time: "14:19:39.403930785"
+subtype: 5
+size: 4
+paras {
+  intValue: 26437
+}
+paras {
+  intValue: 26433
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 41985
+time: "14:19:39.403932009"
+subtype: 5
+size: 4
+paras {
+  intValue: 26490
+}
+paras {
+  intValue: 25667
+}
+paras {
+  stringValue: "\"python3\""
+}
+paras {
+  stringValue: "\"python3\""
+}
+
+ID: 42241
+time: "14:19:39.403933026"
+subtype: 5
+size: 4
+paras {
+  intValue: 26653
+}
+paras {
+  intValue: 1588
+}
+paras {
+  stringValue: "\"pickup\""
+}
+paras {
+  stringValue: "\"pickup\""
+}
+
+ID: 42497
+time: "14:19:39.403934148"
+subtype: 5
+size: 4
+paras {
+  intValue: 27379
+}
+paras {
+  intValue: 1415
+}
+paras {
+  stringValue: "\"sshd\""
+}
+paras {
+  stringValue: "\"sshd\""
+}
+
+ID: 42753
+time: "14:19:39.403934942"
+subtype: 5
+size: 4
+paras {
+  intValue: 27383
+}
+paras {
+  intValue: 27379
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 43009
+time: "14:19:39.403935847"
+subtype: 5
+size: 4
+paras {
+  intValue: 27635
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/2:1\""
+}
+paras {
+  stringValue: "\"kworker/2:1\""
+}
+
+ID: 43265
+time: "14:19:39.403936875"
+subtype: 5
+size: 4
+paras {
+  intValue: 27673
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/u8:0\""
+}
+paras {
+  stringValue: "\"kworker/u8:0\""
+}
+
+ID: 43521
+time: "14:19:39.403937819"
+subtype: 5
+size: 4
+paras {
+  intValue: 28306
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/0:2\""
+}
+paras {
+  stringValue: "\"kworker/0:2\""
+}
+
+ID: 43777
+time: "14:19:39.403938845"
+subtype: 5
+size: 4
+paras {
+  intValue: 28351
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/1:2\""
+}
+paras {
+  stringValue: "\"kworker/1:2\""
+}
+
+ID: 44033
+time: "14:19:39.403939720"
+subtype: 5
+size: 4
+paras {
+  intValue: 28572
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/3:0\""
+}
+paras {
+  stringValue: "\"kworker/3:0\""
+}
+
+ID: 44289
+time: "14:19:39.403940833"
+subtype: 5
+size: 4
+paras {
+  intValue: 29073
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/0:1\""
+}
+paras {
+  stringValue: "\"kworker/0:1\""
+}
+
+ID: 44545
+time: "14:19:39.403941972"
+subtype: 5
+size: 4
+paras {
+  intValue: 29389
+}
+paras {
+  intValue: 8960
+}
+paras {
+  stringValue: "\"sudo\""
+}
+paras {
+  stringValue: "\"sudo\""
+}
+
+ID: 44801
+time: "14:19:39.403943067"
+subtype: 5
+size: 4
+paras {
+  intValue: 29391
+}
+paras {
+  intValue: 29389
+}
+paras {
+  stringValue: "\"scl\""
+}
+paras {
+  stringValue: "\"scl\""
+}
+
+ID: 45057
+time: "14:19:39.403943985"
+subtype: 5
+size: 4
+paras {
+  intValue: 29392
+}
+paras {
+  intValue: 29391
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 45313
+time: "14:19:39.403944808"
+subtype: 5
+size: 4
+paras {
+  intValue: 29397
+}
+paras {
+  intValue: 29392
+}
+paras {
+  stringValue: "\"su\""
+}
+paras {
+  stringValue: "\"su\""
+}
+
+ID: 45569
+time: "14:19:39.403945970"
+subtype: 5
+size: 4
+paras {
+  intValue: 29398
+}
+paras {
+  intValue: 29397
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 45825
+time: "14:19:39.403946891"
+subtype: 5
+size: 4
+paras {
+  intValue: 29417
+}
+paras {
+  intValue: 29398
+}
+paras {
+  stringValue: "\"sudo\""
+}
+paras {
+  stringValue: "\"sudo\""
+}
+
+ID: 46081
+time: "14:19:39.403947876"
+subtype: 5
+size: 4
+paras {
+  intValue: 29419
+}
+paras {
+  intValue: 29417
+}
+paras {
+  stringValue: "\"scl\""
+}
+paras {
+  stringValue: "\"scl\""
+}
+
+ID: 46337
+time: "14:19:39.403948593"
+subtype: 5
+size: 4
+paras {
+  intValue: 29420
+}
+paras {
+  intValue: 29419
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 46593
+time: "14:19:39.403949485"
+subtype: 5
+size: 4
+paras {
+  intValue: 29423
+}
+paras {
+  intValue: 29420
+}
+paras {
+  stringValue: "\"su\""
+}
+paras {
+  stringValue: "\"su\""
+}
+
+ID: 46849
+time: "14:19:39.403950344"
+subtype: 5
+size: 4
+paras {
+  intValue: 29424
+}
+paras {
+  intValue: 29423
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 47105
+time: "14:19:39.403951314"
+subtype: 5
+size: 4
+paras {
+  intValue: 29499
+}
+paras {
+  intValue: 29424
+}
+paras {
+  stringValue: "\"sudo\""
+}
+paras {
+  stringValue: "\"sudo\""
+}
+
+ID: 47361
+time: "14:19:39.403952352"
+subtype: 5
+size: 4
+paras {
+  intValue: 29501
+}
+paras {
+  intValue: 29499
+}
+paras {
+  stringValue: "\"scl\""
+}
+paras {
+  stringValue: "\"scl\""
+}
+
+ID: 47617
+time: "14:19:39.403953222"
+subtype: 5
+size: 4
+paras {
+  intValue: 29502
+}
+paras {
+  intValue: 29501
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 47873
+time: "14:19:39.403954128"
+subtype: 5
+size: 4
+paras {
+  intValue: 29507
+}
+paras {
+  intValue: 29502
+}
+paras {
+  stringValue: "\"su\""
+}
+paras {
+  stringValue: "\"su\""
+}
+
+ID: 48129
+time: "14:19:39.403955123"
+subtype: 5
+size: 4
+paras {
+  intValue: 29508
+}
+paras {
+  intValue: 29507
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 48385
+time: "14:19:39.403956030"
+subtype: 5
+size: 4
+paras {
+  intValue: 29898
+}
+paras {
+  intValue: 2
+}
+paras {
+  stringValue: "\"kworker/0:0\""
+}
+paras {
+  stringValue: "\"kworker/0:0\""
+}
+
+ID: 48641
+time: "14:19:39.403956862"
+subtype: 5
+size: 4
+paras {
+  intValue: 29917
+}
+paras {
+  intValue: 26437
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 48897
+time: "14:19:39.403957616"
+subtype: 5
+size: 4
+paras {
+  intValue: 29923
+}
+paras {
+  intValue: 29917
+}
+paras {
+  stringValue: "\"lttng\""
+}
+paras {
+  stringValue: "\"lttng\""
+}
+
+time: "14:19:39.403961692"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.403962231"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.403962629"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.403963977"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'timerfd\'\""
+}
+
+time: "14:19:39.403964989"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.403965776"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'signalfd\'\""
+}
+
+time: "14:19:39.403966841"
+size: 1
+paras {
+  stringValue: "\"/sys/fs/cgroup/systemd\""
+}
+
+time: "14:19:39.403967722"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'timerfd\'\""
+}
+
+time: "14:19:39.403969013"
+size: 1
+paras {
+  stringValue: "\"socket:\'12934\'\""
+}
+
+time: "14:19:39.403969844"
+size: 1
+paras {
+  stringValue: "\"/proc/1/mountinfo\""
+}
+
+time: "14:19:39.403970520"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.403971204"
+size: 1
+paras {
+  stringValue: "\"/proc/swaps\""
+}
+
+time: "14:19:39.403972142"
+size: 1
+paras {
+  stringValue: "\"socket:\'12935\'\""
+}
+
+time: "14:19:39.403972916"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.403973759"
+size: 1
+paras {
+  stringValue: "\"socket:\'12940\'\""
+}
+
+time: "14:19:39.403974673"
+size: 1
+paras {
+  stringValue: "\"socket:\'12970\'\""
+}
+
+time: "14:19:39.403975655"
+size: 1
+paras {
+  stringValue: "\"socket:\'12981\'\""
+}
+
+time: "14:19:39.403976256"
+size: 1
+paras {
+  stringValue: "\"/dev/autofs\""
+}
+
+time: "14:19:39.403977166"
+size: 1
+paras {
+  stringValue: "\"socket:\'10250\'\""
+}
+
+time: "14:19:39.403977902"
+size: 1
+paras {
+  stringValue: "\"socket:\'10252\'\""
+}
+
+time: "14:19:39.403979186"
+size: 1
+paras {
+  stringValue: "\"pipe:\'12998\'\""
+}
+
+time: "14:19:39.403979848"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.403980670"
+size: 1
+paras {
+  stringValue: "\"socket:\'10260\'\""
+}
+
+time: "14:19:39.403981374"
+size: 1
+paras {
+  stringValue: "\"socket:\'10263\'\""
+}
+
+time: "14:19:39.403982072"
+size: 1
+paras {
+  stringValue: "\"socket:\'10265\'\""
+}
+
+time: "14:19:39.403983149"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/initctl/fifo\""
+}
+
+time: "14:19:39.403983970"
+size: 1
+paras {
+  stringValue: "\"/run/dmeventd-server\""
+}
+
+time: "14:19:39.403984603"
+size: 1
+paras {
+  stringValue: "\"/run/dmeventd-client\""
+}
+
+time: "14:19:39.403985391"
+size: 1
+paras {
+  stringValue: "\"socket:\'13018\'\""
+}
+
+time: "14:19:39.403986206"
+size: 1
+paras {
+  stringValue: "\"socket:\'13035\'\""
+}
+
+time: "14:19:39.403987014"
+size: 1
+paras {
+  stringValue: "\"socket:\'13037\'\""
+}
+
+time: "14:19:39.403988017"
+size: 1
+paras {
+  stringValue: "\"socket:\'14337\'\""
+}
+
+time: "14:19:39.403988827"
+size: 1
+paras {
+  stringValue: "\"socket:\'14411\'\""
+}
+
+time: "14:19:39.403990002"
+size: 1
+paras {
+  stringValue: "\"socket:\'17413\'\""
+}
+
+time: "14:19:39.403990827"
+size: 1
+paras {
+  stringValue: "\"socket:\'17504\'\""
+}
+
+time: "14:19:39.403991757"
+size: 1
+paras {
+  stringValue: "\"socket:\'14392\'\""
+}
+
+time: "14:19:39.403992713"
+size: 1
+paras {
+  stringValue: "\"socket:\'18756\'\""
+}
+
+time: "14:19:39.403993641"
+size: 1
+paras {
+  stringValue: "\"socket:\'10224\'\""
+}
+
+time: "14:19:39.403994426"
+size: 1
+paras {
+  stringValue: "\"socket:\'18758\'\""
+}
+
+time: "14:19:39.403995355"
+size: 1
+paras {
+  stringValue: "\"socket:\'14037\'\""
+}
+
+time: "14:19:39.403996245"
+size: 1
+paras {
+  stringValue: "\"socket:\'14328\'\""
+}
+
+time: "14:19:39.403997202"
+size: 1
+paras {
+  stringValue: "\"socket:\'14096\'\""
+}
+
+time: "14:19:39.403998060"
+size: 1
+paras {
+  stringValue: "\"socket:\'14099\'\""
+}
+
+time: "14:19:39.403999002"
+size: 1
+paras {
+  stringValue: "\"socket:\'16957\'\""
+}
+
+time: "14:19:39.404012319"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404012860"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404013288"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404013868"
+size: 1
+paras {
+  stringValue: "\"socket:\'10260\'\""
+}
+
+time: "14:19:39.404014439"
+size: 1
+paras {
+  stringValue: "\"socket:\'10263\'\""
+}
+
+time: "14:19:39.404015363"
+size: 1
+paras {
+  stringValue: "\"socket:\'10265\'\""
+}
+
+time: "14:19:39.404015928"
+size: 1
+paras {
+  stringValue: "\"/dev/kmsg\""
+}
+
+time: "14:19:39.404016712"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404017201"
+size: 1
+paras {
+  stringValue: "\"/dev/kmsg\""
+}
+
+time: "14:19:39.404018041"
+size: 1
+paras {
+  stringValue: "\"/proc/sys/kernel/hostname\""
+}
+
+time: "14:19:39.404018642"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'signalfd\'\""
+}
+
+time: "14:19:39.404019505"
+size: 1
+paras {
+  stringValue: "\"socket:\'9206\'\""
+}
+
+time: "14:19:39.404020281"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'timerfd\'\""
+}
+
+time: "14:19:39.404021273"
+size: 1
+paras {
+  stringValue: "\"/run/log/journal/fa906f62a31a4caf85a71cefad4a5b08/system.journal\""
+}
+
+time: "14:19:39.404021824"
+size: 1
+paras {
+  stringValue: "\"socket:\'14392\'\""
+}
+
+time: "14:19:39.404022390"
+size: 1
+paras {
+  stringValue: "\"socket:\'18756\'\""
+}
+
+time: "14:19:39.404022877"
+size: 1
+paras {
+  stringValue: "\"socket:\'14411\'\""
+}
+
+time: "14:19:39.404023421"
+size: 1
+paras {
+  stringValue: "\"socket:\'16957\'\""
+}
+
+time: "14:19:39.404023955"
+size: 1
+paras {
+  stringValue: "\"socket:\'14037\'\""
+}
+
+time: "14:19:39.404024440"
+size: 1
+paras {
+  stringValue: "\"socket:\'14328\'\""
+}
+
+time: "14:19:39.404024996"
+size: 1
+paras {
+  stringValue: "\"socket:\'18758\'\""
+}
+
+time: "14:19:39.404025506"
+size: 1
+paras {
+  stringValue: "\"socket:\'14096\'\""
+}
+
+time: "14:19:39.404025970"
+size: 1
+paras {
+  stringValue: "\"socket:\'14099\'\""
+}
+
+time: "14:19:39.404026887"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404027729"
+size: 1
+paras {
+  stringValue: "\"socket:\'13401\'\""
+}
+
+time: "14:19:39.404028208"
+size: 1
+paras {
+  stringValue: "\"socket:\'13401\'\""
+}
+
+time: "14:19:39.404028685"
+size: 1
+paras {
+  stringValue: "\"socket:\'13018\'\""
+}
+
+time: "14:19:39.404029379"
+size: 1
+paras {
+  stringValue: "\"/run/lvmetad.pid\""
+}
+
+time: "14:19:39.404030203"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404031087"
+size: 1
+paras {
+  stringValue: "\"socket:\'13233\'\""
+}
+
+time: "14:19:39.404031580"
+size: 1
+paras {
+  stringValue: "\"socket:\'13233\'\""
+}
+
+time: "14:19:39.404032060"
+size: 1
+paras {
+  stringValue: "\"socket:\'13037\'\""
+}
+
+time: "14:19:39.404032561"
+size: 1
+paras {
+  stringValue: "\"socket:\'12981\'\""
+}
+
+time: "14:19:39.404033407"
+size: 1
+paras {
+  stringValue: "\"socket:\'15373\'\""
+}
+
+time: "14:19:39.404034092"
+size: 1
+paras {
+  stringValue: "\"/etc/udev/hwdb.bin\""
+}
+
+time: "14:19:39.404034752"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.404035515"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'signalfd\'\""
+}
+
+time: "14:19:39.404036247"
+size: 1
+paras {
+  stringValue: "\"socket:\'15391\'\""
+}
+
+time: "14:19:39.404036947"
+size: 1
+paras {
+  stringValue: "\"socket:\'15392\'\""
+}
+
+time: "14:19:39.404037650"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404040574"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404040956"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404041303"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404042117"
+size: 1
+paras {
+  stringValue: "\"socket:\'16350\'\""
+}
+
+time: "14:19:39.404043208"
+size: 1
+paras {
+  stringValue: "\"/var/log/audit/audit.log\""
+}
+
+time: "14:19:39.404043980"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404044701"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404045490"
+size: 1
+paras {
+  stringValue: "\"socket:\'16354\'\""
+}
+
+time: "14:19:39.404046409"
+size: 1
+paras {
+  stringValue: "\"socket:\'16355\'\""
+}
+
+time: "14:19:39.404047165"
+size: 1
+paras {
+  stringValue: "\"socket:\'16356\'\""
+}
+
+time: "14:19:39.404048025"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404048777"
+size: 1
+paras {
+  stringValue: "\"socket:\'14036\'\""
+}
+
+time: "14:19:39.404049272"
+size: 1
+paras {
+  stringValue: "\"socket:\'14036\'\""
+}
+
+time: "14:19:39.404050181"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404050534"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404050877"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404051629"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.404052370"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404053296"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404054106"
+size: 1
+paras {
+  stringValue: "\"socket:\'17587\'\""
+}
+
+time: "14:19:39.404054903"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404055597"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.404056347"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404057071"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404058208"
+size: 1
+paras {
+  stringValue: "\"socket:\'17207\'\""
+}
+
+time: "14:19:39.404059140"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404059920"
+size: 1
+paras {
+  stringValue: "\"socket:\'15081\'\""
+}
+
+time: "14:19:39.404060461"
+size: 1
+paras {
+  stringValue: "\"socket:\'15081\'\""
+}
+
+time: "14:19:39.404061364"
+size: 1
+paras {
+  stringValue: "\"socket:\'16916\'\""
+}
+
+time: "14:19:39.404062236"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404063014"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'timerfd\'\""
+}
+
+time: "14:19:39.404064081"
+size: 1
+paras {
+  stringValue: "\"/sys/devices/virtual/tty/tty0/active\""
+}
+
+time: "14:19:39.404064809"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'signalfd\'\""
+}
+
+time: "14:19:39.404065580"
+size: 1
+paras {
+  stringValue: "\"socket:\'17557\'\""
+}
+
+time: "14:19:39.404066404"
+size: 1
+paras {
+  stringValue: "\"socket:\'17558\'\""
+}
+
+time: "14:19:39.404067156"
+size: 1
+paras {
+  stringValue: "\"socket:\'17559\'\""
+}
+
+time: "14:19:39.404067900"
+size: 1
+paras {
+  stringValue: "\"socket:\'17560\'\""
+}
+
+time: "14:19:39.404068728"
+size: 1
+paras {
+  stringValue: "\"socket:\'17561\'\""
+}
+
+time: "14:19:39.404069518"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'timerfd\'\""
+}
+
+time: "14:19:39.404070561"
+size: 1
+paras {
+  stringValue: "\"/dev/input/event0\""
+}
+
+time: "14:19:39.404071198"
+size: 1
+paras {
+  stringValue: "\"/dev/input/event1\""
+}
+
+time: "14:19:39.404071890"
+size: 1
+paras {
+  stringValue: "\"/dev/input/event4\""
+}
+
+time: "14:19:39.404072553"
+size: 1
+paras {
+  stringValue: "\"/dev/tty6\""
+}
+
+time: "14:19:39.404073351"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/inhibit/1.ref\""
+}
+
+time: "14:19:39.404074124"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/368.ref\""
+}
+
+time: "14:19:39.404074855"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/1308.ref\""
+}
+
+time: "14:19:39.404075733"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/1328.ref\""
+}
+
+time: "14:19:39.404076504"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/1339.ref\""
+}
+
+time: "14:19:39.404077348"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404078196"
+size: 1
+paras {
+  stringValue: "\"socket:\'17548\'\""
+}
+
+time: "14:19:39.404078751"
+size: 1
+paras {
+  stringValue: "\"socket:\'17548\'\""
+}
+
+time: "14:19:39.404079275"
+size: 1
+paras {
+  stringValue: "\"socket:\'17413\'\""
+}
+
+time: "14:19:39.404080028"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404080895"
+size: 1
+paras {
+  stringValue: "\"socket:\'14121\'\""
+}
+
+time: "14:19:39.404081599"
+size: 1
+paras {
+  stringValue: "\"socket:\'14122\'\""
+}
+
+time: "14:19:39.404082218"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.404082940"
+size: 1
+paras {
+  stringValue: "\"socket:\'14127\'\""
+}
+
+time: "14:19:39.404083646"
+size: 1
+paras {
+  stringValue: "\"socket:\'14128\'\""
+}
+
+time: "14:19:39.404084352"
+size: 1
+paras {
+  stringValue: "\"socket:\'14129\'\""
+}
+
+time: "14:19:39.404085051"
+size: 1
+paras {
+  stringValue: "\"socket:\'14130\'\""
+}
+
+time: "14:19:39.404085751"
+size: 1
+paras {
+  stringValue: "\"socket:\'14131\'\""
+}
+
+time: "14:19:39.404086441"
+size: 1
+paras {
+  stringValue: "\"socket:\'14133\'\""
+}
+
+time: "14:19:39.404087351"
+size: 1
+paras {
+  stringValue: "\"socket:\'17242\'\""
+}
+
+time: "14:19:39.404088330"
+size: 1
+paras {
+  stringValue: "\"socket:\'18392\'\""
+}
+
+time: "14:19:39.404089330"
+size: 1
+paras {
+  stringValue: "\"socket:\'19821\'\""
+}
+
+time: "14:19:39.404090795"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404091483"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404092073"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404092897"
+size: 1
+paras {
+  stringValue: "\"socket:\'15102\'\""
+}
+
+time: "14:19:39.404093827"
+size: 1
+paras {
+  stringValue: "\"socket:\'15107\'\""
+}
+
+time: "14:19:39.404094726"
+size: 1
+paras {
+  stringValue: "\"socket:\'15108\'\""
+}
+
+time: "14:19:39.404095292"
+size: 1
+paras {
+  stringValue: "\"/dev/urandom\""
+}
+
+time: "14:19:39.404096023"
+size: 1
+paras {
+  stringValue: "\"socket:\'16930\'\""
+}
+
+time: "14:19:39.404096876"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404097609"
+size: 1
+paras {
+  stringValue: "\"socket:\'14179\'\""
+}
+
+time: "14:19:39.404098156"
+size: 1
+paras {
+  stringValue: "\"socket:\'14179\'\""
+}
+
+time: "14:19:39.404098900"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404099668"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404100591"
+size: 1
+paras {
+  stringValue: "\"socket:\'17223\'\""
+}
+
+time: "14:19:39.404102240"
+size: 1
+paras {
+  stringValue: "\"net:\'4026531956\'\""
+}
+
+time: "14:19:39.404103206"
+size: 1
+paras {
+  stringValue: "\"mnt:\'4026532189\'\""
+}
+
+time: "14:19:39.404104029"
+size: 1
+paras {
+  stringValue: "\"socket:\'17229\'\""
+}
+
+time: "14:19:39.404104736"
+size: 1
+paras {
+  stringValue: "\"socket:\'17230\'\""
+}
+
+time: "14:19:39.404105509"
+size: 1
+paras {
+  stringValue: "\"socket:\'17231\'\""
+}
+
+time: "14:19:39.404106287"
+size: 1
+paras {
+  stringValue: "\"socket:\'17241\'\""
+}
+
+time: "14:19:39.404106928"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404107714"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.404108322"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.404109178"
+size: 1
+paras {
+  stringValue: "\"socket:\'15333\'\""
+}
+
+time: "14:19:39.404110185"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404110931"
+size: 1
+paras {
+  stringValue: "\"socket:\'19820\'\""
+}
+
+time: "14:19:39.404111756"
+size: 1
+paras {
+  stringValue: "\"socket:\'19908\'\""
+}
+
+time: "14:19:39.404112459"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/inhibit/1.ref\""
+}
+
+time: "14:19:39.404113297"
+size: 1
+paras {
+  stringValue: "\"socket:\'19916\'\""
+}
+
+time: "14:19:39.404114233"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404114761"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404115215"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404115752"
+size: 1
+paras {
+  stringValue: "\"/run/atd.pid\""
+}
+
+time: "14:19:39.404116483"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404117234"
+size: 1
+paras {
+  stringValue: "\"socket:\'17190\'\""
+}
+
+time: "14:19:39.404117736"
+size: 1
+paras {
+  stringValue: "\"socket:\'17190\'\""
+}
+
+time: "14:19:39.404118426"
+size: 1
+paras {
+  stringValue: "\"/run/crond.pid\""
+}
+
+time: "14:19:39.404119184"
+size: 1
+paras {
+  stringValue: "\"socket:\'15305\'\""
+}
+
+time: "14:19:39.404119809"
+size: 1
+paras {
+  stringValue: "\"anon_inode:inotify\""
+}
+
+time: "14:19:39.404120711"
+size: 1
+paras {
+  stringValue: "\"/dev/tty1\""
+}
+
+time: "14:19:39.404121070"
+size: 1
+paras {
+  stringValue: "\"/dev/tty1\""
+}
+
+time: "14:19:39.404121401"
+size: 1
+paras {
+  stringValue: "\"/dev/tty1\""
+}
+
+time: "14:19:39.404122888"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404123272"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404123638"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404124516"
+size: 1
+paras {
+  stringValue: "\"socket:\'15359\'\""
+}
+
+time: "14:19:39.404125583"
+size: 1
+paras {
+  stringValue: "\"/var/lib/NetworkManager/dhclient-105340e6-9bb0-37a5-af4a-8c10528f0319-enp0s17.lease\""
+}
+
+time: "14:19:39.404126422"
+size: 1
+paras {
+  stringValue: "\"socket:\'20486\'\""
+}
+
+time: "14:19:39.404127182"
+size: 1
+paras {
+  stringValue: "\"socket:\'20487\'\""
+}
+
+time: "14:19:39.404128028"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404128899"
+size: 1
+paras {
+  stringValue: "\"socket:\'20193\'\""
+}
+
+time: "14:19:39.404129371"
+size: 1
+paras {
+  stringValue: "\"socket:\'20193\'\""
+}
+
+time: "14:19:39.404130213"
+size: 1
+paras {
+  stringValue: "\"/var/log/tuned/tuned.log\""
+}
+
+time: "14:19:39.404131184"
+size: 1
+paras {
+  stringValue: "\"socket:\'19169\'\""
+}
+
+time: "14:19:39.404131921"
+size: 1
+paras {
+  stringValue: "\"/dev/urandom\""
+}
+
+time: "14:19:39.404132967"
+size: 1
+paras {
+  stringValue: "\"socket:\'21629\'\""
+}
+
+time: "14:19:39.404133716"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404134489"
+size: 1
+paras {
+  stringValue: "\"/tmp/ffiNpsPPU (deleted)\""
+}
+
+time: "14:19:39.404135258"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventfd\'\""
+}
+
+time: "14:19:39.404136195"
+size: 1
+paras {
+  stringValue: "\"/dev/cpu_dma_latency\""
+}
+
+time: "14:19:39.404137069"
+size: 1
+paras {
+  stringValue: "\"pipe:\'18398\'\""
+}
+
+time: "14:19:39.404137705"
+size: 1
+paras {
+  stringValue: "\"pipe:\'18398\'\""
+}
+
+time: "14:19:39.404138371"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404139095"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404140055"
+size: 1
+paras {
+  stringValue: "\"socket:\'20247\'\""
+}
+
+time: "14:19:39.404140532"
+size: 1
+paras {
+  stringValue: "\"socket:\'20247\'\""
+}
+
+time: "14:19:39.404141543"
+size: 1
+paras {
+  stringValue: "\"socket:\'18207\'\""
+}
+
+time: "14:19:39.404142337"
+size: 1
+paras {
+  stringValue: "\"socket:\'18209\'\""
+}
+
+time: "14:19:39.404143669"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404144166"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404144717"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404145525"
+size: 1
+paras {
+  stringValue: "\"socket:\'20692\'\""
+}
+
+time: "14:19:39.404145868"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404146842"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19107\'\""
+}
+
+time: "14:19:39.404147188"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404147501"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404147814"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404148126"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404148931"
+size: 1
+paras {
+  stringValue: "\"/var/spool/postfix/pid/master.pid\""
+}
+
+time: "14:19:39.404149679"
+size: 1
+paras {
+  stringValue: "\"/var/lib/postfix/master.lock\""
+}
+
+time: "14:19:39.404150431"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19097\'\""
+}
+
+time: "14:19:39.404151198"
+size: 1
+paras {
+  stringValue: "\"socket:\'19022\'\""
+}
+
+time: "14:19:39.404151917"
+size: 1
+paras {
+  stringValue: "\"socket:\'19023\'\""
+}
+
+time: "14:19:39.404152590"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404153340"
+size: 1
+paras {
+  stringValue: "\"socket:\'19024\'\""
+}
+
+time: "14:19:39.404154036"
+size: 1
+paras {
+  stringValue: "\"socket:\'19025\'\""
+}
+
+time: "14:19:39.404154834"
+size: 1
+paras {
+  stringValue: "\"socket:\'19026\'\""
+}
+
+time: "14:19:39.404155536"
+size: 1
+paras {
+  stringValue: "\"socket:\'19027\'\""
+}
+
+time: "14:19:39.404156183"
+size: 1
+paras {
+  stringValue: "\"socket:\'19028\'\""
+}
+
+time: "14:19:39.404156939"
+size: 1
+paras {
+  stringValue: "\"socket:\'19030\'\""
+}
+
+time: "14:19:39.404157785"
+size: 1
+paras {
+  stringValue: "\"socket:\'19031\'\""
+}
+
+time: "14:19:39.404158477"
+size: 1
+paras {
+  stringValue: "\"socket:\'19032\'\""
+}
+
+time: "14:19:39.404159175"
+size: 1
+paras {
+  stringValue: "\"socket:\'19033\'\""
+}
+
+time: "14:19:39.404159865"
+size: 1
+paras {
+  stringValue: "\"socket:\'19034\'\""
+}
+
+time: "14:19:39.404160568"
+size: 1
+paras {
+  stringValue: "\"socket:\'19035\'\""
+}
+
+time: "14:19:39.404161309"
+size: 1
+paras {
+  stringValue: "\"socket:\'19037\'\""
+}
+
+time: "14:19:39.404162078"
+size: 1
+paras {
+  stringValue: "\"socket:\'19038\'\""
+}
+
+time: "14:19:39.404162879"
+size: 1
+paras {
+  stringValue: "\"socket:\'19039\'\""
+}
+
+time: "14:19:39.404163703"
+size: 1
+paras {
+  stringValue: "\"socket:\'19040\'\""
+}
+
+time: "14:19:39.404164424"
+size: 1
+paras {
+  stringValue: "\"socket:\'19041\'\""
+}
+
+time: "14:19:39.404165227"
+size: 1
+paras {
+  stringValue: "\"socket:\'19042\'\""
+}
+
+time: "14:19:39.404165934"
+size: 1
+paras {
+  stringValue: "\"socket:\'19043\'\""
+}
+
+time: "14:19:39.404166884"
+size: 1
+paras {
+  stringValue: "\"socket:\'19044\'\""
+}
+
+time: "14:19:39.404167608"
+size: 1
+paras {
+  stringValue: "\"socket:\'19045\'\""
+}
+
+time: "14:19:39.404168395"
+size: 1
+paras {
+  stringValue: "\"socket:\'19046\'\""
+}
+
+time: "14:19:39.404169113"
+size: 1
+paras {
+  stringValue: "\"socket:\'19047\'\""
+}
+
+time: "14:19:39.404169901"
+size: 1
+paras {
+  stringValue: "\"socket:\'19048\'\""
+}
+
+time: "14:19:39.404170718"
+size: 1
+paras {
+  stringValue: "\"socket:\'19049\'\""
+}
+
+time: "14:19:39.404171428"
+size: 1
+paras {
+  stringValue: "\"socket:\'19050\'\""
+}
+
+time: "14:19:39.404172198"
+size: 1
+paras {
+  stringValue: "\"socket:\'19051\'\""
+}
+
+time: "14:19:39.404172906"
+size: 1
+paras {
+  stringValue: "\"socket:\'19052\'\""
+}
+
+time: "14:19:39.404173677"
+size: 1
+paras {
+  stringValue: "\"socket:\'19053\'\""
+}
+
+time: "14:19:39.404174323"
+size: 1
+paras {
+  stringValue: "\"socket:\'19054\'\""
+}
+
+time: "14:19:39.404174986"
+size: 1
+paras {
+  stringValue: "\"socket:\'19055\'\""
+}
+
+time: "14:19:39.404175696"
+size: 1
+paras {
+  stringValue: "\"socket:\'19056\'\""
+}
+
+time: "14:19:39.404176338"
+size: 1
+paras {
+  stringValue: "\"socket:\'19057\'\""
+}
+
+time: "14:19:39.404176981"
+size: 1
+paras {
+  stringValue: "\"socket:\'19058\'\""
+}
+
+time: "14:19:39.404177774"
+size: 1
+paras {
+  stringValue: "\"socket:\'19059\'\""
+}
+
+time: "14:19:39.404178467"
+size: 1
+paras {
+  stringValue: "\"socket:\'19060\'\""
+}
+
+time: "14:19:39.404179167"
+size: 1
+paras {
+  stringValue: "\"socket:\'19061\'\""
+}
+
+time: "14:19:39.404179868"
+size: 1
+paras {
+  stringValue: "\"socket:\'19062\'\""
+}
+
+time: "14:19:39.404180567"
+size: 1
+paras {
+  stringValue: "\"socket:\'19063\'\""
+}
+
+time: "14:19:39.404181273"
+size: 1
+paras {
+  stringValue: "\"socket:\'19064\'\""
+}
+
+time: "14:19:39.404181971"
+size: 1
+paras {
+  stringValue: "\"socket:\'19065\'\""
+}
+
+time: "14:19:39.404182822"
+size: 1
+paras {
+  stringValue: "\"socket:\'19066\'\""
+}
+
+time: "14:19:39.404183591"
+size: 1
+paras {
+  stringValue: "\"socket:\'19067\'\""
+}
+
+time: "14:19:39.404184297"
+size: 1
+paras {
+  stringValue: "\"socket:\'19068\'\""
+}
+
+time: "14:19:39.404184929"
+size: 1
+paras {
+  stringValue: "\"socket:\'19069\'\""
+}
+
+time: "14:19:39.404185601"
+size: 1
+paras {
+  stringValue: "\"socket:\'19070\'\""
+}
+
+time: "14:19:39.404186218"
+size: 1
+paras {
+  stringValue: "\"socket:\'19071\'\""
+}
+
+time: "14:19:39.404186807"
+size: 1
+paras {
+  stringValue: "\"socket:\'19072\'\""
+}
+
+time: "14:19:39.404205534"
+size: 1
+paras {
+  stringValue: "\"socket:\'19073\'\""
+}
+
+time: "14:19:39.404206612"
+size: 1
+paras {
+  stringValue: "\"socket:\'19074\'\""
+}
+
+time: "14:19:39.404207339"
+size: 1
+paras {
+  stringValue: "\"socket:\'19075\'\""
+}
+
+time: "14:19:39.404208047"
+size: 1
+paras {
+  stringValue: "\"socket:\'19076\'\""
+}
+
+time: "14:19:39.404208760"
+size: 1
+paras {
+  stringValue: "\"socket:\'19077\'\""
+}
+
+time: "14:19:39.404209472"
+size: 1
+paras {
+  stringValue: "\"socket:\'19078\'\""
+}
+
+time: "14:19:39.404210180"
+size: 1
+paras {
+  stringValue: "\"socket:\'19079\'\""
+}
+
+time: "14:19:39.404210862"
+size: 1
+paras {
+  stringValue: "\"socket:\'19080\'\""
+}
+
+time: "14:19:39.404211597"
+size: 1
+paras {
+  stringValue: "\"socket:\'19081\'\""
+}
+
+time: "14:19:39.404212395"
+size: 1
+paras {
+  stringValue: "\"socket:\'19082\'\""
+}
+
+time: "14:19:39.404213123"
+size: 1
+paras {
+  stringValue: "\"socket:\'19083\'\""
+}
+
+time: "14:19:39.404213816"
+size: 1
+paras {
+  stringValue: "\"socket:\'19084\'\""
+}
+
+time: "14:19:39.404214470"
+size: 1
+paras {
+  stringValue: "\"socket:\'19085\'\""
+}
+
+time: "14:19:39.404215182"
+size: 1
+paras {
+  stringValue: "\"socket:\'19086\'\""
+}
+
+time: "14:19:39.404215791"
+size: 1
+paras {
+  stringValue: "\"socket:\'19087\'\""
+}
+
+time: "14:19:39.404216599"
+size: 1
+paras {
+  stringValue: "\"socket:\'19088\'\""
+}
+
+time: "14:19:39.404217288"
+size: 1
+paras {
+  stringValue: "\"socket:\'19089\'\""
+}
+
+time: "14:19:39.404217936"
+size: 1
+paras {
+  stringValue: "\"socket:\'19090\'\""
+}
+
+time: "14:19:39.404218674"
+size: 1
+paras {
+  stringValue: "\"socket:\'19091\'\""
+}
+
+time: "14:19:39.404219464"
+size: 1
+paras {
+  stringValue: "\"socket:\'19092\'\""
+}
+
+time: "14:19:39.404220198"
+size: 1
+paras {
+  stringValue: "\"socket:\'19093\'\""
+}
+
+time: "14:19:39.404221006"
+size: 1
+paras {
+  stringValue: "\"socket:\'19094\'\""
+}
+
+time: "14:19:39.404221728"
+size: 1
+paras {
+  stringValue: "\"socket:\'19095\'\""
+}
+
+time: "14:19:39.404222469"
+size: 1
+paras {
+  stringValue: "\"socket:\'19096\'\""
+}
+
+time: "14:19:39.404223213"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19097\'\""
+}
+
+time: "14:19:39.404223954"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19098\'\""
+}
+
+time: "14:19:39.404224644"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19098\'\""
+}
+
+time: "14:19:39.404225266"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19107\'\""
+}
+
+time: "14:19:39.404226905"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404227374"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404227743"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404228403"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19098\'\""
+}
+
+time: "14:19:39.404228912"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19098\'\""
+}
+
+time: "14:19:39.404229558"
+size: 1
+paras {
+  stringValue: "\"socket:\'19035\'\""
+}
+
+time: "14:19:39.404230147"
+size: 1
+paras {
+  stringValue: "\"socket:\'19033\'\""
+}
+
+time: "14:19:39.404231097"
+size: 1
+paras {
+  stringValue: "\"socket:\'19108\'\""
+}
+
+time: "14:19:39.404232071"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404232812"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19124\'\""
+}
+
+time: "14:19:39.404233431"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19124\'\""
+}
+
+time: "14:19:39.404234241"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19107\'\""
+}
+
+time: "14:19:39.404235433"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404235886"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404236253"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404237019"
+size: 1
+paras {
+  stringValue: "\"/run/lttng/lttng-sessiond.lck\""
+}
+
+time: "14:19:39.404237961"
+size: 1
+paras {
+  stringValue: "\"socket:\'21720\'\""
+}
+
+time: "14:19:39.404238749"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21722\'\""
+}
+
+time: "14:19:39.404239469"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21722\'\""
+}
+
+time: "14:19:39.404240225"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21723\'\""
+}
+
+time: "14:19:39.404241052"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21723\'\""
+}
+
+time: "14:19:39.404241802"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21724\'\""
+}
+
+time: "14:19:39.404242381"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21724\'\""
+}
+
+time: "14:19:39.404243064"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21725\'\""
+}
+
+time: "14:19:39.404243643"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21725\'\""
+}
+
+time: "14:19:39.404244524"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21726\'\""
+}
+
+time: "14:19:39.404245139"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21726\'\""
+}
+
+time: "14:19:39.404245884"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21727\'\""
+}
+
+time: "14:19:39.404246532"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21727\'\""
+}
+
+time: "14:19:39.404247261"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404248058"
+size: 1
+paras {
+  stringValue: "\"socket:\'21731\'\""
+}
+
+time: "14:19:39.404248662"
+size: 1
+paras {
+  stringValue: "\"/proc/lttng\""
+}
+
+time: "14:19:39.404249683"
+size: 1
+paras {
+  stringValue: "\"socket:\'21753\'\""
+}
+
+time: "14:19:39.404250553"
+size: 1
+paras {
+  stringValue: "\"socket:\'21756\'\""
+}
+
+time: "14:19:39.404251247"
+size: 1
+paras {
+  stringValue: "\"socket:\'21758\'\""
+}
+
+time: "14:19:39.404252080"
+size: 1
+paras {
+  stringValue: "\"socket:\'21760\'\""
+}
+
+time: "14:19:39.404253063"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21762\'\""
+}
+
+time: "14:19:39.404253722"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21762\'\""
+}
+
+time: "14:19:39.404254555"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21763\'\""
+}
+
+time: "14:19:39.404255199"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21763\'\""
+}
+
+time: "14:19:39.404255936"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21764\'\""
+}
+
+time: "14:19:39.404256463"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21764\'\""
+}
+
+time: "14:19:39.404257313"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21768\'\""
+}
+
+time: "14:19:39.404258065"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21768\'\""
+}
+
+time: "14:19:39.404259161"
+size: 1
+paras {
+  stringValue: "\"socket:\'22783\'\""
+}
+
+time: "14:19:39.404259971"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404261000"
+size: 1
+paras {
+  stringValue: "\"socket:\'19416\'\""
+}
+
+time: "14:19:39.404261832"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404262529"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404263434"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404267045"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404267824"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404268816"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404269458"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404270172"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404271171"
+size: 1
+paras {
+  stringValue: "\"socket:\'22788\'\""
+}
+
+time: "14:19:39.404272156"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_session\'\""
+}
+
+time: "14:19:39.404272842"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404273646"
+size: 1
+paras {
+  stringValue: "\"socket:\'22800\'\""
+}
+
+time: "14:19:39.404274539"
+size: 1
+paras {
+  stringValue: "\"socket:\'22801\'\""
+}
+
+time: "14:19:39.404275442"
+size: 1
+paras {
+  stringValue: "\"socket:\'22802\'\""
+}
+
+time: "14:19:39.404276337"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_channel\'\""
+}
+
+time: "14:19:39.404277082"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404277759"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404278335"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404279248"
+size: 1
+paras {
+  stringValue: "\"socket:\'346610\'\""
+}
+
+time: "14:19:39.404280489"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404281278"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404282153"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404282963"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404283639"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404284320"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404285001"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404285678"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404286363"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404287008"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404288020"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404288798"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404289552"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404290321"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404290972"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404291872"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404292663"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404293398"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404294372"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404294931"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404295660"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404296424"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404297216"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404297971"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404298540"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404299225"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404300009"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404300662"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404301473"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404302156"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404302850"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404303535"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404304211"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404305034"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404305730"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404306417"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404306991"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404307671"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404308279"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404308911"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404309426"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_event\'\""
+}
+
+time: "14:19:39.404310138"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_channel\'\""
+}
+
+time: "14:19:39.404310722"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404311869"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404312215"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404312612"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404313067"
+size: 1
+paras {
+  stringValue: "\"/run/lttng/lttng-sessiond.lck\""
+}
+
+time: "14:19:39.404314037"
+size: 1
+paras {
+  stringValue: "\"socket:\'21721\'\""
+}
+
+time: "14:19:39.404315005"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404315362"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404315761"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404316191"
+size: 1
+paras {
+  stringValue: "\"/run/lttng/lttng-sessiond.lck\""
+}
+
+time: "14:19:39.404316835"
+size: 1
+paras {
+  stringValue: "\"socket:\'21720\'\""
+}
+
+time: "14:19:39.404317770"
+size: 1
+paras {
+  stringValue: "\"socket:\'22791\'\""
+}
+
+time: "14:19:39.404318506"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22793\'\""
+}
+
+time: "14:19:39.404319205"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22793\'\""
+}
+
+time: "14:19:39.404320064"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22794\'\""
+}
+
+time: "14:19:39.404320962"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22794\'\""
+}
+
+time: "14:19:39.404321858"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22795\'\""
+}
+
+time: "14:19:39.404322377"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21725\'\""
+}
+
+time: "14:19:39.404322942"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21725\'\""
+}
+
+time: "14:19:39.404323437"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21726\'\""
+}
+
+time: "14:19:39.404323942"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21726\'\""
+}
+
+time: "14:19:39.404324438"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21727\'\""
+}
+
+time: "14:19:39.404324954"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21727\'\""
+}
+
+time: "14:19:39.404325575"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22795\'\""
+}
+
+time: "14:19:39.404326501"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22796\'\""
+}
+
+time: "14:19:39.404326907"
+size: 1
+paras {
+  stringValue: "\"/proc/lttng\""
+}
+
+time: "14:19:39.404327549"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22796\'\""
+}
+
+time: "14:19:39.404328280"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22797\'\""
+}
+
+time: "14:19:39.404328882"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22797\'\""
+}
+
+time: "14:19:39.404329651"
+size: 1
+paras {
+  stringValue: "\"socket:\'22798\'\""
+}
+
+time: "14:19:39.404330452"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22799\'\""
+}
+
+time: "14:19:39.404331051"
+size: 1
+paras {
+  stringValue: "\"pipe:\'22799\'\""
+}
+
+time: "14:19:39.404332061"
+size: 1
+paras {
+  stringValue: "\"socket:\'19419\'\""
+}
+
+time: "14:19:39.404332845"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404333806"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404334472"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404335094"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21725\'\""
+}
+
+time: "14:19:39.404335884"
+size: 1
+paras {
+  stringValue: "\"socket:\'22803\'\""
+}
+
+time: "14:19:39.404336726"
+size: 1
+paras {
+  stringValue: "\"socket:\'22804\'\""
+}
+
+time: "14:19:39.404337251"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404337756"
+size: 1
+paras {
+  stringValue: "\"socket:\'19416\'\""
+}
+
+time: "14:19:39.404338815"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347201\'\""
+}
+
+time: "14:19:39.404339431"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347201\'\""
+}
+
+time: "14:19:39.404339995"
+size: 1
+paras {
+  stringValue: "\"/tmp/my-kernel-trace/kernel/metadata\""
+}
+
+time: "14:19:39.404340585"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404341376"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347202\'\""
+}
+
+time: "14:19:39.404341926"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347202\'\""
+}
+
+time: "14:19:39.404342724"
+size: 1
+paras {
+  stringValue: "\"/tmp/my-kernel-trace/kernel/channel0_3\""
+}
+
+time: "14:19:39.404343509"
+size: 1
+paras {
+  stringValue: "\"/tmp/my-kernel-trace/kernel/index/channel0_3.idx\""
+}
+
+time: "14:19:39.404344065"
+size: 1
+paras {
+  stringValue: "\"socket:\'22788\'\""
+}
+
+time: "14:19:39.404344508"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404345213"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347203\'\""
+}
+
+time: "14:19:39.404345835"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347203\'\""
+}
+
+time: "14:19:39.404346395"
+size: 1
+paras {
+  stringValue: "\"/tmp/my-kernel-trace/kernel/channel0_2\""
+}
+
+time: "14:19:39.404346972"
+size: 1
+paras {
+  stringValue: "\"/tmp/my-kernel-trace/kernel/index/channel0_2.idx\""
+}
+
+time: "14:19:39.404347469"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404348163"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347204\'\""
+}
+
+time: "14:19:39.404348676"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347204\'\""
+}
+
+time: "14:19:39.404349111"
+size: 1
+paras {
+  stringValue: "\"/tmp/my-kernel-trace/kernel/channel0_1\""
+}
+
+time: "14:19:39.404349825"
+size: 1
+paras {
+  stringValue: "\"/tmp/my-kernel-trace/kernel/index/channel0_1.idx\""
+}
+
+time: "14:19:39.404350328"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'lttng_stream\'\""
+}
+
+time: "14:19:39.404350997"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347205\'\""
+}
+
+time: "14:19:39.404351703"
+size: 1
+paras {
+  stringValue: "\"pipe:\'347205\'\""
+}
+
+time: "14:19:39.404352212"
+size: 1
+paras {
+  stringValue: "\"/tmp/my-kernel-trace/kernel/channel0_0\""
+}
+
+time: "14:19:39.404352773"
+size: 1
+paras {
+  stringValue: "\"/tmp/my-kernel-trace/kernel/index/channel0_0.idx\""
+}
+
+time: "14:19:39.404353441"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404353814"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404354150"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404354664"
+size: 1
+paras {
+  stringValue: "\"/run/lttng/lttng-sessiond.lck\""
+}
+
+time: "14:19:39.404355246"
+size: 1
+paras {
+  stringValue: "\"socket:\'21720\'\""
+}
+
+time: "14:19:39.404355963"
+size: 1
+paras {
+  stringValue: "\"socket:\'22792\'\""
+}
+
+time: "14:19:39.404356513"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21725\'\""
+}
+
+time: "14:19:39.404357048"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21725\'\""
+}
+
+time: "14:19:39.404357546"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21726\'\""
+}
+
+time: "14:19:39.404358059"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21726\'\""
+}
+
+time: "14:19:39.404358554"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21727\'\""
+}
+
+time: "14:19:39.404359057"
+size: 1
+paras {
+  stringValue: "\"pipe:\'21727\'\""
+}
+
+time: "14:19:39.404359452"
+size: 1
+paras {
+  stringValue: "\"/proc/lttng\""
+}
+
+time: "14:19:39.404360112"
+size: 1
+paras {
+  stringValue: "\"socket:\'19416\'\""
+}
+
+time: "14:19:39.404360635"
+size: 1
+paras {
+  stringValue: "\"socket:\'22788\'\""
+}
+
+time: "14:19:39.404361590"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/0 (deleted)\""
+}
+
+time: "14:19:39.404362001"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/0 (deleted)\""
+}
+
+time: "14:19:39.404362403"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/0 (deleted)\""
+}
+
+time: "14:19:39.404363333"
+size: 1
+paras {
+  stringValue: "\"pipe:\'23611\'\""
+}
+
+time: "14:19:39.404364040"
+size: 1
+paras {
+  stringValue: "\"pipe:\'23611\'\""
+}
+
+time: "14:19:39.404364876"
+size: 1
+paras {
+  stringValue: "\"pipe:\'23612\'\""
+}
+
+time: "14:19:39.404365626"
+size: 1
+paras {
+  stringValue: "\"pipe:\'23612\'\""
+}
+
+time: "14:19:39.404366454"
+size: 1
+paras {
+  stringValue: "\"pipe:\'23613\'\""
+}
+
+time: "14:19:39.404367165"
+size: 1
+paras {
+  stringValue: "\"pipe:\'23613\'\""
+}
+
+time: "14:19:39.404368138"
+size: 1
+paras {
+  stringValue: "\"socket:\'24584\'\""
+}
+
+time: "14:19:39.404368963"
+size: 1
+paras {
+  stringValue: "\"pipe:\'23614\'\""
+}
+
+time: "14:19:39.404369654"
+size: 1
+paras {
+  stringValue: "\"pipe:\'23614\'\""
+}
+
+time: "14:19:39.404370532"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404371438"
+size: 1
+paras {
+  stringValue: "\"socket:\'21848\'\""
+}
+
+time: "14:19:39.404372346"
+size: 1
+paras {
+  stringValue: "\"socket:\'21849\'\""
+}
+
+time: "14:19:39.404373097"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404373879"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404374606"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404375442"
+size: 1
+paras {
+  stringValue: "\"socket:\'24588\'\""
+}
+
+time: "14:19:39.404376201"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404377029"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404377361"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404377681"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404378594"
+size: 1
+paras {
+  stringValue: "\"socket:\'96916\'\""
+}
+
+time: "14:19:39.404379388"
+size: 1
+paras {
+  stringValue: "\"socket:\'96946\'\""
+}
+
+time: "14:19:39.404380247"
+size: 1
+paras {
+  stringValue: "\"pipe:\'96949\'\""
+}
+
+time: "14:19:39.404380847"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/368.ref\""
+}
+
+time: "14:19:39.404381533"
+size: 1
+paras {
+  stringValue: "\"pipe:\'96949\'\""
+}
+
+time: "14:19:39.404382063"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404382438"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404382761"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404384358"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404384757"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404385144"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404386081"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404387542"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404387873"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404388191"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404389084"
+size: 1
+paras {
+  stringValue: "\"socket:\'295479\'\""
+}
+
+time: "14:19:39.404389915"
+size: 1
+paras {
+  stringValue: "\"socket:\'296967\'\""
+}
+
+time: "14:19:39.404391028"
+size: 1
+paras {
+  stringValue: "\"pipe:\'296970\'\""
+}
+
+time: "14:19:39.404391606"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/1308.ref\""
+}
+
+time: "14:19:39.404392344"
+size: 1
+paras {
+  stringValue: "\"pipe:\'296970\'\""
+}
+
+time: "14:19:39.404392808"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404393173"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404393495"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404394990"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/2\""
+}
+
+time: "14:19:39.404395362"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/2\""
+}
+
+time: "14:19:39.404395714"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/2\""
+}
+
+time: "14:19:39.404396472"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/2\""
+}
+
+time: "14:19:39.404397224"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404397722"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404398036"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404398945"
+size: 1
+paras {
+  stringValue: "\"socket:\'302150\'\""
+}
+
+time: "14:19:39.404399860"
+size: 1
+paras {
+  stringValue: "\"socket:\'301333\'\""
+}
+
+time: "14:19:39.404400938"
+size: 1
+paras {
+  stringValue: "\"pipe:\'301336\'\""
+}
+
+time: "14:19:39.404401578"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/1328.ref\""
+}
+
+time: "14:19:39.404402323"
+size: 1
+paras {
+  stringValue: "\"pipe:\'301336\'\""
+}
+
+time: "14:19:39.404402947"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404403336"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404403665"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404404877"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404405270"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404405706"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404406520"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404407609"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/2\""
+}
+
+time: "14:19:39.404407964"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/2\""
+}
+
+time: "14:19:39.404408385"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/2\""
+}
+
+time: "14:19:39.404409608"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404409949"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404410278"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404410912"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19098\'\""
+}
+
+time: "14:19:39.404411435"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19098\'\""
+}
+
+time: "14:19:39.404411985"
+size: 1
+paras {
+  stringValue: "\"socket:\'19028\'\""
+}
+
+time: "14:19:39.404412506"
+size: 1
+paras {
+  stringValue: "\"socket:\'19026\'\""
+}
+
+time: "14:19:39.404413566"
+size: 1
+paras {
+  stringValue: "\"socket:\'303474\'\""
+}
+
+time: "14:19:39.404414638"
+size: 1
+paras {
+  stringValue: "\"anon_inode:\'eventpoll\'\""
+}
+
+time: "14:19:39.404415588"
+size: 1
+paras {
+  stringValue: "\"pipe:\'303490\'\""
+}
+
+time: "14:19:39.404416309"
+size: 1
+paras {
+  stringValue: "\"pipe:\'303490\'\""
+}
+
+time: "14:19:39.404416993"
+size: 1
+paras {
+  stringValue: "\"pipe:\'19107\'\""
+}
+
+time: "14:19:39.404417786"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404418171"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404418496"
+size: 1
+paras {
+  stringValue: "\"/dev/null\""
+}
+
+time: "14:19:39.404419207"
+size: 1
+paras {
+  stringValue: "\"socket:\'306688\'\""
+}
+
+time: "14:19:39.404420062"
+size: 1
+paras {
+  stringValue: "\"socket:\'307387\'\""
+}
+
+time: "14:19:39.404421017"
+size: 1
+paras {
+  stringValue: "\"pipe:\'307390\'\""
+}
+
+time: "14:19:39.404421570"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/1339.ref\""
+}
+
+time: "14:19:39.404422250"
+size: 1
+paras {
+  stringValue: "\"pipe:\'307390\'\""
+}
+
+time: "14:19:39.404422826"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404423190"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404423581"
+size: 1
+paras {
+  stringValue: "\"/dev/ptmx\""
+}
+
+time: "14:19:39.404424887"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/4\""
+}
+
+time: "14:19:39.404425314"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/4\""
+}
+
+time: "14:19:39.404425669"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/4\""
+}
+
+time: "14:19:39.404426635"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/4\""
+}
+
+time: "14:19:39.404429074"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404429511"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404429866"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404430898"
+size: 1
+paras {
+  stringValue: "\"socket:\'346302\'\""
+}
+
+time: "14:19:39.404432002"
+size: 1
+paras {
+  stringValue: "\"socket:\'344418\'\""
+}
+
+time: "14:19:39.404432648"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/368.ref\""
+}
+
+time: "14:19:39.404433776"
+size: 1
+paras {
+  stringValue: "\"pipe:\'344421\'\""
+}
+
+time: "14:19:39.404434505"
+size: 1
+paras {
+  stringValue: "\"pipe:\'344421\'\""
+}
+
+time: "14:19:39.404435814"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404436278"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404436674"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404437754"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404438139"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404438578"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404439982"
+size: 1
+paras {
+  stringValue: "\"/var/tmp/sclxhhopB\""
+}
+
+time: "14:19:39.404440901"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404441363"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404441737"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404442604"
+size: 1
+paras {
+  stringValue: "\"socket:\'345566\'\""
+}
+
+time: "14:19:39.404443416"
+size: 1
+paras {
+  stringValue: "\"socket:\'345577\'\""
+}
+
+time: "14:19:39.404444289"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/368.ref\""
+}
+
+time: "14:19:39.404445729"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404446173"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404446658"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404447698"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404448695"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404449191"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404449616"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404450746"
+size: 1
+paras {
+  stringValue: "\"socket:\'344447\'\""
+}
+
+time: "14:19:39.404451500"
+size: 1
+paras {
+  stringValue: "\"socket:\'344453\'\""
+}
+
+time: "14:19:39.404452142"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/368.ref\""
+}
+
+time: "14:19:39.404452980"
+size: 1
+paras {
+  stringValue: "\"pipe:\'344456\'\""
+}
+
+time: "14:19:39.404453595"
+size: 1
+paras {
+  stringValue: "\"pipe:\'344456\'\""
+}
+
+time: "14:19:39.404454873"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404455287"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404455688"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404457175"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404457605"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404457981"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404458995"
+size: 1
+paras {
+  stringValue: "\"/var/tmp/sclnF9N1Z\""
+}
+
+time: "14:19:39.404459815"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404460219"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404460601"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404461551"
+size: 1
+paras {
+  stringValue: "\"socket:\'343776\'\""
+}
+
+time: "14:19:39.404462498"
+size: 1
+paras {
+  stringValue: "\"socket:\'343787\'\""
+}
+
+time: "14:19:39.404463013"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/368.ref\""
+}
+
+time: "14:19:39.404464311"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404464730"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404465133"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404465937"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404467138"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404467513"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404467873"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404468663"
+size: 1
+paras {
+  stringValue: "\"socket:\'344468\'\""
+}
+
+time: "14:19:39.404469710"
+size: 1
+paras {
+  stringValue: "\"socket:\'344474\'\""
+}
+
+time: "14:19:39.404470436"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/368.ref\""
+}
+
+time: "14:19:39.404471361"
+size: 1
+paras {
+  stringValue: "\"pipe:\'344477\'\""
+}
+
+time: "14:19:39.404472088"
+size: 1
+paras {
+  stringValue: "\"pipe:\'344477\'\""
+}
+
+time: "14:19:39.404473350"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404473755"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404474153"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404475230"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404475589"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404475949"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404477479"
+size: 1
+paras {
+  stringValue: "\"/var/tmp/sclGxLOSl\""
+}
+
+time: "14:19:39.404478494"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404478870"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404479301"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404480088"
+size: 1
+paras {
+  stringValue: "\"socket:\'345617\'\""
+}
+
+time: "14:19:39.404480936"
+size: 1
+paras {
+  stringValue: "\"socket:\'345628\'\""
+}
+
+time: "14:19:39.404481465"
+size: 1
+paras {
+  stringValue: "\"/run/systemd/sessions/368.ref\""
+}
+
+time: "14:19:39.404482930"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404483377"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404483841"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404484626"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/1\""
+}
+
+time: "14:19:39.404485798"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404486196"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404486626"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404487801"
+size: 1
+paras {
+  stringValue: "\"/root/atomic-red-team/lttng_collect_test.sh\""
+}
+
+time: "14:19:39.404488288"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404489237"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404489582"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404489996"
+size: 1
+paras {
+  stringValue: "\"/dev/pts/3\""
+}
+
+time: "14:19:39.404490778"
+size: 1
+paras {
+  stringValue: "\"socket:\'346057\'\""
+}
+
+ID: 128
+time: "14:19:39.434236503"
+desId: 31745
+type: 1
+subtype: 20
+
+ID: 384
+time: "14:19:39.434251817"
+srcId: 31745
+type: 1
+subtype: 3
+
+ID: 640
+time: "14:19:39.434301597"
+srcId: 48897
+type: 1
+subtype: 3
+
+ID: 896
+time: "14:19:39.434356523"
+desId: 48897
+type: 1
+subtype: 8
+
+ID: 1152
+time: "14:19:39.434678670"
+srcId: 41473
+type: 1
+subtype: 4
+
+ID: 1408
+time: "14:19:39.434757429"
+srcId: 48641
+type: 1
+subtype: 4
+
+ID: 1664
+time: "14:19:39.434717532"
+desId: 41473
+type: 1
+subtype: 8
+
+ID: 1920
+time: "14:19:39.435511876"
+desId: 41729
+type: 1
+subtype: 8
+
+ID: 2176
+time: "14:19:39.435735115"
+desId: 41729
+type: 1
+subtype: 8
+
+ID: 2432
+time: "14:19:39.435805035"
+srcId: 41473
+type: 1
+subtype: 4
+
+ID: 2688
+time: "14:19:39.435830899"
+desId: 41473
+type: 1
+subtype: 8
+
+ID: 48897
+time: "14:19:39.440210888"
+subtype: 5
+
+ID: 48641
+time: "14:19:39.440218593"
+subtype: 5
+
+ID: 2944
+time: "14:19:39.451240737"
+srcId: 1281
+type: 1
+subtype: 4
+
+ID: 49153
+time: "14:19:39.451317782"
+subtype: 5
+size: 4
+paras {
+  intValue: 29924
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 3200
+time: "14:19:39.451293784"
+srcId: 1281
+desId: 29924
+type: 1
+subtype: 12
+size: 1
+paras {
+  intValue: 4001536
+}
+
+ID: 3456
+time: "14:19:39.435752032"
+srcId: 769
+type: 1
+subtype: 4
+
+ID: 3712
+time: "14:19:39.451356158"
+srcId: 49153
+type: 1
+subtype: 3
+
+ID: 3968
+time: "14:19:39.451359177"
+srcId: 49153
+type: 1
+subtype: 3
+
+ID: 49153
+time: "14:19:39.464492490"
+subtype: 5
+
+ID: 4224
+time: "14:19:40.377735461"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 4480
+time: "14:19:40.377854101"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 4736
+time: "14:19:40.589126502"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 4992
+time: "14:19:40.589166381"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 5248
+time: "14:19:40.589205206"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 5504
+time: "14:19:40.589229544"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 5760
+time: "14:19:40.701959659"
+srcId: 1281
+type: 1
+subtype: 4
+
+ID: 49409
+time: "14:19:40.702053549"
+subtype: 5
+size: 4
+paras {
+  intValue: 29925
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 6016
+time: "14:19:40.702029990"
+srcId: 1281
+desId: 29925
+type: 1
+subtype: 12
+size: 1
+paras {
+  intValue: 4001536
+}
+
+ID: 6272
+time: "14:19:40.702115867"
+srcId: 49409
+type: 1
+subtype: 3
+
+ID: 6528
+time: "14:19:40.702133107"
+srcId: 49409
+type: 1
+subtype: 3
+
+ID: 49409
+time: "14:19:40.729298881"
+subtype: 5
+
+ID: 6784
+time: "14:19:40.819938110"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 7040
+time: "14:19:40.819965102"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 7296
+time: "14:19:40.819998717"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 7552
+time: "14:19:40.820020364"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 7808
+time: "14:19:41.238079040"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 8064
+time: "14:19:41.238118569"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 8320
+time: "14:19:41.238163491"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 8576
+time: "14:19:41.238187755"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 8832
+time: "14:19:41.378739437"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 9088
+time: "14:19:41.378875485"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 9344
+time: "14:19:41.506509025"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 9600
+time: "14:19:41.506549799"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 9856
+time: "14:19:41.506588182"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 10112
+time: "14:19:41.506612784"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 10368
+time: "14:19:41.672955529"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 10624
+time: "14:19:41.672981119"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 10880
+time: "14:19:41.673013377"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 11136
+time: "14:19:41.673034304"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 11392
+time: "14:19:41.952099199"
+srcId: 1281
+type: 1
+subtype: 4
+
+ID: 49665
+time: "14:19:41.952193257"
+subtype: 5
+size: 4
+paras {
+  intValue: 29926
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 11648
+time: "14:19:41.952168849"
+srcId: 1281
+desId: 29926
+type: 1
+subtype: 12
+size: 1
+paras {
+  intValue: 4001536
+}
+
+ID: 11904
+time: "14:19:41.952314505"
+srcId: 49665
+type: 1
+subtype: 3
+
+ID: 12160
+time: "14:19:41.952318210"
+srcId: 49665
+type: 1
+subtype: 3
+
+ID: 49665
+time: "14:19:41.977353873"
+subtype: 5
+
+ID: 12416
+time: "14:19:42.051373943"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 12672
+time: "14:19:42.051401378"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 12928
+time: "14:19:42.051617103"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 13184
+time: "14:19:42.051635005"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 13440
+time: "14:19:42.051658506"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 13696
+time: "14:19:42.051676324"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 13952
+time: "14:19:42.051686077"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 14208
+time: "14:19:42.051698718"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 14464
+time: "14:19:42.051716532"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 14720
+time: "14:19:42.051742537"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 14976
+time: "14:19:42.051754038"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 15232
+time: "14:19:42.051762949"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 15488
+time: "14:19:42.051790148"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 15744
+time: "14:19:42.051813547"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 16000
+time: "14:19:42.051827028"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 16256
+time: "14:19:42.051836662"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 16512
+time: "14:19:42.051852204"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 16768
+time: "14:19:42.051862202"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 17024
+time: "14:19:42.051917731"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 17280
+time: "14:19:42.051946142"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 17536
+time: "14:19:42.051975073"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 17792
+time: "14:19:42.378444705"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 18048
+time: "14:19:42.378589041"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 18304
+time: "14:19:42.965773187"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 18560
+time: "14:19:42.965813730"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 18816
+time: "14:19:42.965854693"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 19072
+time: "14:19:42.965880264"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 19328
+time: "14:19:43.201429301"
+srcId: 1281
+type: 1
+subtype: 4
+
+ID: 49921
+time: "14:19:43.201523513"
+subtype: 5
+size: 4
+paras {
+  intValue: 29927
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 19584
+time: "14:19:43.201500203"
+srcId: 1281
+desId: 29927
+type: 1
+subtype: 12
+size: 1
+paras {
+  intValue: 4001536
+}
+
+ID: 19840
+time: "14:19:42.051924838"
+srcId: 769
+type: 1
+subtype: 4
+
+ID: 20096
+time: "14:19:43.201660326"
+srcId: 49921
+type: 1
+subtype: 3
+
+ID: 20352
+time: "14:19:43.201666541"
+srcId: 49921
+type: 1
+subtype: 3
+
+ID: 49921
+time: "14:19:43.399301889"
+subtype: 5
+
+ID: 20608
+time: "14:19:43.399382826"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 20864
+time: "14:19:43.399484386"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 21120
+time: "14:19:43.421539196"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 21376
+time: "14:19:43.421567030"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 21632
+time: "14:19:43.421725799"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 21888
+time: "14:19:43.421755478"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 22144
+time: "14:19:43.421778367"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 22400
+time: "14:19:43.735086997"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 22656
+time: "14:19:43.735126847"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 22912
+time: "14:19:43.735163812"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 23168
+time: "14:19:43.735185569"
+desId: 40705
+type: 1
+subtype: 8
+
+time: "14:19:44.038239457"
+size: 1
+paras {
+  stringValue: "\"/proc/interrupts\""
+}
+
+ID: 23424
+time: "14:19:44.038239457"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 23680
+time: "14:19:44.038300664"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 23936
+time: "14:19:44.038401550"
+srcId: 23041
+type: 1
+subtype: 3
+
+time: "14:19:44.038429241"
+size: 1
+paras {
+  stringValue: "\"/proc/stat\""
+}
+
+ID: 24192
+time: "14:19:44.038429241"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 24448
+time: "14:19:44.038451494"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 24704
+time: "14:19:44.038479680"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 24960
+time: "14:19:44.038484529"
+srcId: 23041
+type: 1
+subtype: 3
+
+time: "14:19:44.038506531"
+size: 1
+paras {
+  stringValue: "\"/proc/irq/11/smp_affinity\""
+}
+
+ID: 25216
+time: "14:19:44.038506531"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 25472
+time: "14:19:44.038534106"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 25728
+time: "14:19:44.038544601"
+srcId: 23041
+type: 1
+subtype: 3
+
+time: "14:19:44.038560380"
+size: 1
+paras {
+  stringValue: "\"/proc/irq/21/smp_affinity\""
+}
+
+ID: 25984
+time: "14:19:44.038560380"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 26240
+time: "14:19:44.038586287"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 26496
+time: "14:19:44.038595138"
+srcId: 23041
+type: 1
+subtype: 3
+
+time: "14:19:44.038610363"
+size: 1
+paras {
+  stringValue: "\"/proc/irq/0/smp_affinity\""
+}
+
+ID: 26752
+time: "14:19:44.038610363"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 27008
+time: "14:19:44.038636083"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 27264
+time: "14:19:44.038644692"
+srcId: 23041
+type: 1
+subtype: 3
+
+time: "14:19:44.038687559"
+size: 1
+paras {
+  stringValue: "\"/proc/irq/1/smp_affinity\""
+}
+
+ID: 27520
+time: "14:19:44.038687559"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 27776
+time: "14:19:44.038739994"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 28032
+time: "14:19:44.038750242"
+srcId: 23041
+type: 1
+subtype: 3
+
+time: "14:19:44.038775182"
+size: 1
+paras {
+  stringValue: "\"/proc/irq/8/smp_affinity\""
+}
+
+ID: 28288
+time: "14:19:44.038775182"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 28544
+time: "14:19:44.038840468"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 28800
+time: "14:19:44.038855661"
+srcId: 23041
+type: 1
+subtype: 3
+
+time: "14:19:44.038889701"
+size: 1
+paras {
+  stringValue: "\"/proc/irq/12/smp_affinity\""
+}
+
+ID: 29056
+time: "14:19:44.038889701"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 29312
+time: "14:19:44.038921053"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 29568
+time: "14:19:44.038931154"
+srcId: 23041
+type: 1
+subtype: 3
+
+time: "14:19:44.038947726"
+size: 1
+paras {
+  stringValue: "\"/proc/irq/14/smp_affinity\""
+}
+
+ID: 29824
+time: "14:19:44.038947726"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 30080
+time: "14:19:44.038973847"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 30336
+time: "14:19:44.038982924"
+srcId: 23041
+type: 1
+subtype: 3
+
+time: "14:19:44.039001044"
+size: 1
+paras {
+  stringValue: "\"/proc/irq/15/smp_affinity\""
+}
+
+ID: 30592
+time: "14:19:44.039001044"
+srcId: 23041
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 30848
+time: "14:19:44.039024915"
+srcId: 23041
+type: 1
+subtype: 4
+
+ID: 31104
+time: "14:19:44.039033549"
+srcId: 23041
+type: 1
+subtype: 3
+
+ID: 31360
+time: "14:19:44.064880467"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 31616
+time: "14:19:44.064915252"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 31872
+time: "14:19:43.421736319"
+srcId: 41985
+type: 1
+subtype: 4
+
+ID: 32128
+time: "14:19:44.065036969"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 32384
+time: "14:19:44.065066547"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 32640
+time: "14:19:44.065090511"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 32896
+time: "14:19:44.343630476"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 33152
+time: "14:19:44.343659989"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 33408
+time: "14:19:44.343694675"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 33664
+time: "14:19:44.343716788"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 33920
+time: "14:19:44.378143440"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 34176
+time: "14:19:44.378277193"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 34432
+time: "14:19:44.451223172"
+srcId: 1281
+type: 1
+subtype: 4
+
+ID: 50177
+time: "14:19:44.451320290"
+subtype: 5
+size: 4
+paras {
+  intValue: 29928
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 34688
+time: "14:19:44.451295695"
+srcId: 1281
+desId: 29928
+type: 1
+subtype: 12
+size: 1
+paras {
+  intValue: 4001536
+}
+
+ID: 34944
+time: "14:19:44.065047124"
+srcId: 769
+type: 1
+subtype: 4
+
+ID: 35200
+time: "14:19:44.451397817"
+srcId: 50177
+type: 1
+subtype: 3
+
+ID: 35456
+time: "14:19:44.451402107"
+srcId: 50177
+type: 1
+subtype: 3
+
+ID: 50177
+time: "14:19:44.499856710"
+subtype: 5
+
+ID: 35712
+time: "14:19:44.658899082"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 35968
+time: "14:19:44.658934053"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 36224
+time: "14:19:44.659105594"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 36480
+time: "14:19:44.659154265"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 36736
+time: "14:19:44.659184788"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 36992
+time: "14:19:45.378075110"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 37248
+time: "14:19:45.378212722"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 37504
+time: "14:19:45.568393610"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 37760
+time: "14:19:45.568430275"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 38016
+time: "14:19:44.659116501"
+srcId: 41985
+type: 1
+subtype: 4
+
+ID: 38272
+time: "14:19:45.568576434"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 38528
+time: "14:19:45.568606182"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 38784
+time: "14:19:45.568630427"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 39040
+time: "14:19:45.701054936"
+srcId: 1281
+type: 1
+subtype: 4
+
+ID: 50433
+time: "14:19:45.701150357"
+subtype: 5
+size: 4
+paras {
+  intValue: 29929
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 39296
+time: "14:19:45.701126647"
+srcId: 1281
+desId: 29929
+type: 1
+subtype: 12
+size: 1
+paras {
+  intValue: 4001536
+}
+
+ID: 39552
+time: "14:19:45.568586800"
+srcId: 769
+type: 1
+subtype: 4
+
+ID: 39808
+time: "14:19:45.701273263"
+srcId: 50433
+type: 1
+subtype: 3
+
+ID: 40064
+time: "14:19:45.701280084"
+srcId: 50433
+type: 1
+subtype: 3
+
+ID: 50433
+time: "14:19:45.753683378"
+subtype: 5
+
+ID: 40320
+time: "14:19:46.201185013"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 40576
+time: "14:19:46.201218489"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 40832
+time: "14:19:46.201325818"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 41088
+time: "14:19:46.201344403"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 41344
+time: "14:19:46.201355838"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 41600
+time: "14:19:46.201423004"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 41856
+time: "14:19:46.201436037"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 42112
+time: "14:19:46.201560253"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 42368
+time: "14:19:46.201572266"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 42624
+time: "14:19:46.201715533"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 42880
+time: "14:19:46.201727625"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 50689
+time: "14:19:46.202690996"
+subtype: 5
+size: 4
+paras {
+  intValue: 29930
+}
+paras {
+  intValue: 26490
+}
+paras {
+  stringValue: "\"python3\""
+}
+paras {
+  stringValue: "\"python3\""
+}
+
+ID: 43136
+time: "14:19:46.202344229"
+srcId: 41985
+desId: 29930
+type: 1
+subtype: 13
+size: 1
+paras {
+  intValue: 18874385
+}
+
+ID: 43392
+time: "14:19:46.202891963"
+srcId: 50689
+type: 1
+subtype: 3
+
+ID: 43648
+time: "14:19:46.202895302"
+srcId: 50689
+type: 1
+subtype: 3
+
+ID: 43904
+time: "14:19:46.202897642"
+srcId: 50689
+type: 1
+subtype: 3
+
+ID: 44160
+time: "14:19:46.203022022"
+srcId: 41985
+type: 1
+subtype: 3
+
+ID: 44416
+time: "14:19:46.203066868"
+srcId: 41985
+type: 1
+subtype: 3
+
+ID: 44672
+time: "14:19:46.203071652"
+srcId: 41985
+type: 1
+subtype: 3
+
+time: "14:19:46.203038247"
+size: 1
+paras {
+  stringValue: "\"/proc/irq/14/smp_affinity\""
+}
+
+ID: 44928
+time: "14:19:46.203038247"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 0
+}
+
+ID: 45184
+time: "14:19:46.203103137"
+srcId: 50689
+type: 1
+subtype: 3
+
+ID: 45440
+time: "14:19:46.203106132"
+srcId: 50689
+type: 1
+subtype: 3
+
+ID: 45696
+time: "14:19:46.203110791"
+srcId: 50689
+type: 1
+subtype: 3
+
+ID: 45952
+time: "14:19:46.203152097"
+srcId: 40705
+type: 1
+subtype: 4
+
+time: "14:19:46.203215672"
+size: 1
+paras {
+  stringValue: "\"/usr/local/etc/snoopy.ini\""
+}
+
+ID: 46208
+time: "14:19:46.203215672"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 46464
+time: "14:19:46.203183781"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 46720
+time: "14:19:46.203296125"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 46976
+time: "14:19:46.203371658"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 47232
+time: "14:19:46.203387949"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 47488
+time: "14:19:46.203457473"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 47744
+time: "14:19:46.203468407"
+srcId: 50689
+type: 1
+subtype: 3
+
+ID: 48000
+time: "14:19:46.203639911"
+srcId: 50689
+desId: 2
+type: 1
+subtype: 21
+
+ID: 2
+time: "14:19:46.203683388"
+subtype: 3
+size: 3
+paras {
+  intValue: 3
+}
+paras {
+  stringValue: "\' \'"
+}
+paras {
+  intValue: 0
+}
+
+ID: 48256
+time: "14:19:46.203683388"
+srcId: 50689
+desId: 2
+type: 1
+subtype: 16
+
+ID: 48512
+time: "14:19:46.203693673"
+srcId: 50689
+desId: 2
+type: 1
+subtype: 3
+
+ID: 50945
+time: "14:19:46.203706026"
+subtype: 5
+size: 4
+paras {
+  intValue: 0
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"/bin/bash\""
+}
+paras {
+  stringValue: "\"/bin/bash\""
+}
+
+ID: 48768
+time: "14:19:46.203706026"
+srcId: 50945
+desId: 769
+type: 1
+subtype: 14
+size: 2
+paras {
+  stringValue: "\"/bin/bash\""
+}
+paras {
+  stringValue: "\"/bin/bash\""
+}
+
+ID: 49024
+time: "14:19:46.203124974"
+srcId: 41985
+type: 1
+subtype: 4
+
+ID: 49280
+time: "14:19:46.204276795"
+srcId: 41985
+type: 1
+subtype: 3
+
+time: "14:19:46.204324508"
+size: 1
+paras {
+  stringValue: "\"/etc/ld.so.preload\""
+}
+
+ID: 49536
+time: "14:19:46.204324508"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 49792
+time: "14:19:46.204334119"
+srcId: 50689
+type: 1
+subtype: 3
+
+time: "14:19:46.204350272"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/x86_64/libtinfo.so.5\""
+}
+
+ID: 50048
+time: "14:19:46.204350272"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204364650"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/libtinfo.so.5\""
+}
+
+ID: 50304
+time: "14:19:46.204364650"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204374830"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/x86_64/libtinfo.so.5\""
+}
+
+ID: 50560
+time: "14:19:46.204374830"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204383590"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/libtinfo.so.5\""
+}
+
+ID: 50816
+time: "14:19:46.204383590"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204393044"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/tls/x86_64/libtinfo.so.5\""
+}
+
+ID: 51072
+time: "14:19:46.204393044"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204402049"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/tls/libtinfo.so.5\""
+}
+
+ID: 51328
+time: "14:19:46.204402049"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204410639"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/x86_64/libtinfo.so.5\""
+}
+
+ID: 51584
+time: "14:19:46.204410639"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204419695"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/libtinfo.so.5\""
+}
+
+ID: 51840
+time: "14:19:46.204419695"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204429530"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/dyninst/tls/x86_64/libtinfo.so.5\""
+}
+
+ID: 52096
+time: "14:19:46.204429530"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204439035"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/dyninst/tls/libtinfo.so.5\""
+}
+
+ID: 52352
+time: "14:19:46.204439035"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204448097"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/dyninst/x86_64/libtinfo.so.5\""
+}
+
+ID: 52608
+time: "14:19:46.204448097"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204456746"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/dyninst/libtinfo.so.5\""
+}
+
+ID: 52864
+time: "14:19:46.204456746"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204465329"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/dyninst/tls/x86_64/libtinfo.so.5\""
+}
+
+ID: 53120
+time: "14:19:46.204465329"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204474135"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/dyninst/tls/libtinfo.so.5\""
+}
+
+ID: 53376
+time: "14:19:46.204474135"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204482643"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/dyninst/x86_64/libtinfo.so.5\""
+}
+
+ID: 53632
+time: "14:19:46.204482643"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204491117"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/dyninst/libtinfo.so.5\""
+}
+
+ID: 53888
+time: "14:19:46.204491117"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204502242"
+size: 1
+paras {
+  stringValue: "\"/etc/ld.so.cache\""
+}
+
+ID: 54144
+time: "14:19:46.204502242"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 54400
+time: "14:19:46.204514817"
+srcId: 50689
+type: 1
+subtype: 3
+
+time: "14:19:46.204529940"
+size: 1
+paras {
+  stringValue: "\"/lib64/libtinfo.so.5\""
+}
+
+ID: 54656
+time: "14:19:46.204529940"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 54912
+time: "14:19:46.204540250"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 55168
+time: "14:19:46.204583187"
+srcId: 50689
+type: 1
+subtype: 3
+
+time: "14:19:46.204593478"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/libdl.so.2\""
+}
+
+ID: 55424
+time: "14:19:46.204593478"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204601860"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/libdl.so.2\""
+}
+
+ID: 55680
+time: "14:19:46.204601860"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204607677"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/libdl.so.2\""
+}
+
+ID: 55936
+time: "14:19:46.204607677"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204621685"
+size: 1
+paras {
+  stringValue: "\"/lib64/libdl.so.2\""
+}
+
+ID: 56192
+time: "14:19:46.204621685"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 56448
+time: "14:19:46.204630925"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 56704
+time: "14:19:46.204630671"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 56960
+time: "14:19:46.204676442"
+srcId: 50689
+type: 1
+subtype: 3
+
+ID: 57216
+time: "14:19:46.204681982"
+srcId: 41985
+type: 1
+subtype: 3
+
+time: "14:19:46.204684088"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/libc.so.6\""
+}
+
+ID: 57472
+time: "14:19:46.204684088"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204691531"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/libc.so.6\""
+}
+
+ID: 57728
+time: "14:19:46.204691531"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204697148"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/libc.so.6\""
+}
+
+ID: 57984
+time: "14:19:46.204697148"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.204703507"
+size: 1
+paras {
+  stringValue: "\"/lib64/libc.so.6\""
+}
+
+ID: 58240
+time: "14:19:46.204703507"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 58496
+time: "14:19:46.204712284"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 58752
+time: "14:19:46.204757804"
+srcId: 50689
+type: 1
+subtype: 3
+
+time: "14:19:46.205118273"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/libdl.so.2\""
+}
+
+ID: 59008
+time: "14:19:46.205118273"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 59264
+time: "14:19:46.205135827"
+srcId: 50689
+type: 1
+subtype: 3
+
+time: "14:19:46.205233383"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/libdl.so.2\""
+}
+
+ID: 59520
+time: "14:19:46.205233383"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 59776
+time: "14:19:46.205281320"
+srcId: 50689
+type: 1
+subtype: 3
+
+time: "14:19:46.205426689"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/libdl.so.2\""
+}
+
+ID: 60032
+time: "14:19:46.205426689"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 60288
+time: "14:19:46.205464540"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 60544
+time: "14:19:46.205532910"
+srcId: 50689
+type: 1
+subtype: 3
+
+time: "14:19:46.205713810"
+size: 1
+paras {
+  stringValue: "\"/lib64/libc.so.6\""
+}
+
+ID: 60800
+time: "14:19:46.205713810"
+srcId: 50689
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 61056
+time: "14:19:46.205732043"
+srcId: 50689
+type: 1
+subtype: 3
+
+ID: 61312
+time: "14:19:46.206058118"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 61568
+time: "14:19:46.206063461"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 61824
+time: "14:19:46.206066790"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 62080
+time: "14:19:46.206070041"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 62336
+time: "14:19:46.206073226"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 62592
+time: "14:19:46.206076375"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 62848
+time: "14:19:46.206079492"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 63104
+time: "14:19:46.206082648"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 63360
+time: "14:19:46.206085808"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 63616
+time: "14:19:46.206089009"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 63872
+time: "14:19:46.206092135"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 64128
+time: "14:19:46.206095267"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 64384
+time: "14:19:46.206098410"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 64640
+time: "14:19:46.206101552"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 64896
+time: "14:19:46.206104649"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 65152
+time: "14:19:46.206107892"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 65408
+time: "14:19:46.206111049"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 65664
+time: "14:19:46.206114185"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 65920
+time: "14:19:46.206117299"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 66176
+time: "14:19:46.206120392"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 66432
+time: "14:19:46.206123521"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 66688
+time: "14:19:46.206126622"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 51201
+time: "14:19:46.206631238"
+subtype: 5
+size: 4
+paras {
+  intValue: 29931
+}
+paras {
+  intValue: 29930
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 66944
+time: "14:19:46.206576960"
+srcId: 50689
+desId: 29931
+type: 1
+subtype: 13
+size: 1
+paras {
+  intValue: 18874385
+}
+
+ID: 51457
+time: "14:19:46.206857323"
+subtype: 5
+size: 4
+paras {
+  intValue: 0
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"/usr/sbin/insmod\""
+}
+paras {
+  stringValue: "\"/usr/sbin/insmod\""
+}
+
+ID: 67200
+time: "14:19:46.206857323"
+srcId: 51457
+desId: 50945
+type: 1
+subtype: 14
+size: 2
+paras {
+  stringValue: "\"/usr/sbin/insmod\""
+}
+paras {
+  stringValue: "\"/usr/sbin/insmod\""
+}
+
+time: "14:19:46.207396434"
+size: 1
+paras {
+  stringValue: "\"/etc/ld.so.preload\""
+}
+
+ID: 67456
+time: "14:19:46.207396434"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 67712
+time: "14:19:46.207405406"
+srcId: 51201
+type: 1
+subtype: 3
+
+time: "14:19:46.207420817"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/x86_64/liblzma.so.5\""
+}
+
+ID: 67968
+time: "14:19:46.207420817"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207431478"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/liblzma.so.5\""
+}
+
+ID: 68224
+time: "14:19:46.207431478"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207441522"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/x86_64/liblzma.so.5\""
+}
+
+ID: 68480
+time: "14:19:46.207441522"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207450307"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/liblzma.so.5\""
+}
+
+ID: 68736
+time: "14:19:46.207450307"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207459817"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/tls/x86_64/liblzma.so.5\""
+}
+
+ID: 68992
+time: "14:19:46.207459817"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207468525"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/tls/liblzma.so.5\""
+}
+
+ID: 69248
+time: "14:19:46.207468525"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207477060"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/x86_64/liblzma.so.5\""
+}
+
+ID: 69504
+time: "14:19:46.207477060"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207485643"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/liblzma.so.5\""
+}
+
+ID: 69760
+time: "14:19:46.207485643"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207495120"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/dyninst/tls/x86_64/liblzma.so.5\""
+}
+
+ID: 70016
+time: "14:19:46.207495120"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207504524"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/dyninst/tls/liblzma.so.5\""
+}
+
+ID: 70272
+time: "14:19:46.207504524"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207513672"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/dyninst/x86_64/liblzma.so.5\""
+}
+
+ID: 70528
+time: "14:19:46.207513672"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207522824"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/dyninst/liblzma.so.5\""
+}
+
+ID: 70784
+time: "14:19:46.207522824"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207532439"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/dyninst/tls/x86_64/liblzma.so.5\""
+}
+
+ID: 71040
+time: "14:19:46.207532439"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207541267"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/dyninst/tls/liblzma.so.5\""
+}
+
+ID: 71296
+time: "14:19:46.207541267"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207549881"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/dyninst/x86_64/liblzma.so.5\""
+}
+
+ID: 71552
+time: "14:19:46.207549881"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207558395"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/dyninst/liblzma.so.5\""
+}
+
+ID: 71808
+time: "14:19:46.207558395"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207568683"
+size: 1
+paras {
+  stringValue: "\"/etc/ld.so.cache\""
+}
+
+ID: 72064
+time: "14:19:46.207568683"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 72320
+time: "14:19:46.207580013"
+srcId: 51201
+type: 1
+subtype: 3
+
+time: "14:19:46.207597621"
+size: 1
+paras {
+  stringValue: "\"/lib64/liblzma.so.5\""
+}
+
+ID: 72576
+time: "14:19:46.207597621"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 72832
+time: "14:19:46.207607101"
+srcId: 51201
+type: 1
+subtype: 4
+
+ID: 73088
+time: "14:19:46.207649383"
+srcId: 51201
+type: 1
+subtype: 3
+
+time: "14:19:46.207659514"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/libz.so.1\""
+}
+
+ID: 73344
+time: "14:19:46.207659514"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207667463"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/libz.so.1\""
+}
+
+ID: 73600
+time: "14:19:46.207667463"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207673102"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/libz.so.1\""
+}
+
+ID: 73856
+time: "14:19:46.207673102"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207683735"
+size: 1
+paras {
+  stringValue: "\"/lib64/libz.so.1\""
+}
+
+ID: 74112
+time: "14:19:46.207683735"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 74368
+time: "14:19:46.207692402"
+srcId: 51201
+type: 1
+subtype: 4
+
+ID: 74624
+time: "14:19:46.207737420"
+srcId: 51201
+type: 1
+subtype: 3
+
+time: "14:19:46.207747736"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/libgcc_s.so.1\""
+}
+
+ID: 74880
+time: "14:19:46.207747736"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207755272"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/libgcc_s.so.1\""
+}
+
+ID: 75136
+time: "14:19:46.207755272"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207761036"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/libgcc_s.so.1\""
+}
+
+ID: 75392
+time: "14:19:46.207761036"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207767705"
+size: 1
+paras {
+  stringValue: "\"/lib64/libgcc_s.so.1\""
+}
+
+ID: 75648
+time: "14:19:46.207767705"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 75904
+time: "14:19:46.207776842"
+srcId: 51201
+type: 1
+subtype: 4
+
+ID: 76160
+time: "14:19:46.207814493"
+srcId: 51201
+type: 1
+subtype: 3
+
+time: "14:19:46.207824505"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/libc.so.6\""
+}
+
+ID: 76416
+time: "14:19:46.207824505"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207831734"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/libc.so.6\""
+}
+
+ID: 76672
+time: "14:19:46.207831734"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207838281"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/libc.so.6\""
+}
+
+ID: 76928
+time: "14:19:46.207838281"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207844568"
+size: 1
+paras {
+  stringValue: "\"/lib64/libc.so.6\""
+}
+
+ID: 77184
+time: "14:19:46.207844568"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 77440
+time: "14:19:46.207852544"
+srcId: 51201
+type: 1
+subtype: 4
+
+ID: 77696
+time: "14:19:46.207895267"
+srcId: 51201
+type: 1
+subtype: 3
+
+time: "14:19:46.207905881"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/tls/libpthread.so.0\""
+}
+
+ID: 77952
+time: "14:19:46.207905881"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207913899"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib64/libpthread.so.0\""
+}
+
+ID: 78208
+time: "14:19:46.207913899"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207919741"
+size: 1
+paras {
+  stringValue: "\"/opt/rh/devtoolset-8/root/usr/lib/libpthread.so.0\""
+}
+
+ID: 78464
+time: "14:19:46.207919741"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:46.207926918"
+size: 1
+paras {
+  stringValue: "\"/lib64/libpthread.so.0\""
+}
+
+ID: 78720
+time: "14:19:46.207926918"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 78976
+time: "14:19:46.207935769"
+srcId: 51201
+type: 1
+subtype: 4
+
+ID: 79232
+time: "14:19:46.207986551"
+srcId: 51201
+type: 1
+subtype: 3
+
+time: "14:19:46.208446789"
+size: 1
+paras {
+  stringValue: "\"/lib/modules/3.10.0-1062.el7.x86_64/modules.softdep\""
+}
+
+ID: 79488
+time: "14:19:46.208446789"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 79744
+time: "14:19:46.208614121"
+srcId: 51201
+type: 1
+subtype: 4
+
+ID: 80000
+time: "14:19:46.208655742"
+srcId: 51201
+type: 1
+subtype: 4
+
+ID: 80256
+time: "14:19:46.208663051"
+srcId: 51201
+type: 1
+subtype: 3
+
+time: "14:19:46.208678933"
+size: 1
+paras {
+  stringValue: "\"/proc/cmdline\""
+}
+
+ID: 80512
+time: "14:19:46.208678933"
+srcId: 51201
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 80768
+time: "14:19:46.208696757"
+srcId: 51201
+type: 1
+subtype: 4
+
+ID: 81024
+time: "14:19:46.208702056"
+srcId: 51201
+type: 1
+subtype: 4
+
+ID: 81280
+time: "14:19:46.208705914"
+srcId: 51201
+type: 1
+subtype: 3
+
+ID: 81536
+time: "14:19:46.208780396"
+desId: 51201
+type: 1
+subtype: 8
+
+ID: 81792
+time: "14:19:46.208970962"
+srcId: 41985
+type: 1
+subtype: 4
+
+ID: 82048
+time: "14:19:46.209004964"
+srcId: 50689
+type: 1
+subtype: 4
+
+ID: 82304
+time: "14:19:46.209165060"
+srcId: 41985
+type: 1
+subtype: 4
+
+ID: 82560
+time: "14:19:46.209199128"
+srcId: 41985
+type: 1
+subtype: 3
+
+ID: 82816
+time: "14:19:46.209442596"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 83072
+time: "14:19:46.209460334"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 83328
+time: "14:19:46.209541239"
+desId: 41985
+type: 1
+subtype: 8
+
+ID: 83584
+time: "14:19:46.209573344"
+srcId: 40705
+type: 1
+subtype: 4
+
+ID: 83840
+time: "14:19:46.209599285"
+desId: 40705
+type: 1
+subtype: 8
+
+ID: 50689
+time: "14:19:46.214336076"
+subtype: 5
+
+ID: 51201
+time: "14:19:46.214383928"
+subtype: 5
+
+ID: 84096
+time: "14:19:46.379320573"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 84352
+time: "14:19:46.379387670"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 84608
+time: "14:19:46.951398696"
+srcId: 1281
+type: 1
+subtype: 4
+
+ID: 51713
+time: "14:19:46.951496866"
+subtype: 5
+size: 4
+paras {
+  intValue: 29932
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 84864
+time: "14:19:46.951474119"
+srcId: 1281
+desId: 29932
+type: 1
+subtype: 12
+size: 1
+paras {
+  intValue: 4001536
+}
+
+ID: 85120
+time: "14:19:46.209547902"
+srcId: 51457
+type: 1
+subtype: 4
+
+ID: 85376
+time: "14:19:46.951650861"
+srcId: 51713
+type: 1
+subtype: 3
+
+ID: 85632
+time: "14:19:46.951656820"
+srcId: 51713
+type: 1
+subtype: 3
+
+ID: 51713
+time: "14:19:46.969260896"
+subtype: 5
+
+ID: 85888
+time: "14:19:47.378136039"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 86144
+time: "14:19:47.378197442"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 86400
+time: "14:19:48.201336956"
+srcId: 1281
+type: 1
+subtype: 4
+
+ID: 51969
+time: "14:19:48.201417611"
+subtype: 5
+size: 4
+paras {
+  intValue: 29933
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 86656
+time: "14:19:48.201392740"
+srcId: 1281
+desId: 29933
+type: 1
+subtype: 12
+size: 1
+paras {
+  intValue: 4001536
+}
+
+ID: 86912
+time: "14:19:48.201471706"
+srcId: 51969
+type: 1
+subtype: 3
+
+ID: 87168
+time: "14:19:48.201474815"
+srcId: 51969
+type: 1
+subtype: 3
+
+ID: 51969
+time: "14:19:48.219467572"
+subtype: 5
+
+ID: 87424
+time: "14:19:48.377281852"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 87680
+time: "14:19:48.377415707"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 87936
+time: "14:19:49.378704373"
+desId: 35073
+type: 1
+subtype: 8
+
+ID: 88192
+time: "14:19:49.378841698"
+srcId: 31489
+type: 1
+subtype: 4
+
+ID: 88448
+time: "14:19:49.451053255"
+srcId: 1281
+type: 1
+subtype: 4
+
+ID: 52225
+time: "14:19:49.451158618"
+subtype: 5
+size: 4
+paras {
+  intValue: 29934
+}
+paras {
+  intValue: 1
+}
+paras {
+  stringValue: "\"systemd\""
+}
+paras {
+  stringValue: "\"systemd\""
+}
+
+ID: 88704
+time: "14:19:49.451133160"
+srcId: 1281
+desId: 29934
+type: 1
+subtype: 12
+size: 1
+paras {
+  intValue: 4001536
+}
+
+ID: 88960
+time: "14:19:49.451234380"
+srcId: 52225
+type: 1
+subtype: 3
+
+ID: 89216
+time: "14:19:49.451237838"
+srcId: 52225
+type: 1
+subtype: 3
+
+ID: 52225
+time: "14:19:49.464419046"
+subtype: 5
+
+ID: 89472
+time: "14:19:49.474918056"
+srcId: 41473
+type: 1
+subtype: 4
+
+ID: 89728
+time: "14:19:49.474956114"
+desId: 41473
+type: 1
+subtype: 8
+
+ID: 89984
+time: "14:19:49.475115227"
+srcId: 41729
+type: 1
+subtype: 4
+
+ID: 90240
+time: "14:19:49.475125495"
+srcId: 41729
+type: 1
+subtype: 4
+
+ID: 90496
+time: "14:19:49.475160681"
+desId: 41729
+type: 1
+subtype: 8
+
+ID: 90752
+time: "14:19:49.475325646"
+srcId: 41473
+type: 1
+subtype: 4
+
+ID: 91008
+time: "14:19:49.475371767"
+desId: 41473
+type: 1
+subtype: 8
+
+ID: 91264
+time: "14:19:49.664043989"
+srcId: 41473
+type: 1
+subtype: 4
+
+ID: 91520
+time: "14:19:49.664072403"
+desId: 41473
+type: 1
+subtype: 8
+
+ID: 91776
+time: "14:19:49.475176625"
+srcId: 41729
+type: 1
+subtype: 4
+
+ID: 92032
+time: "14:19:49.664221681"
+srcId: 41729
+type: 1
+subtype: 4
+
+ID: 92288
+time: "14:19:49.664234349"
+srcId: 41729
+type: 1
+subtype: 4
+
+ID: 92544
+time: "14:19:49.664333279"
+desId: 41729
+type: 1
+subtype: 8
+
+ID: 92800
+time: "14:19:49.664459626"
+srcId: 41473
+type: 1
+subtype: 4
+
+ID: 93056
+time: "14:19:49.664510255"
+desId: 41473
+type: 1
+subtype: 8
+
+ID: 93312
+time: "14:19:50.135288356"
+srcId: 41473
+type: 1
+subtype: 4
+
+ID: 93568
+time: "14:19:50.135318340"
+desId: 41473
+type: 1
+subtype: 8
+
+ID: 93824
+time: "14:19:49.664346864"
+srcId: 41729
+type: 1
+subtype: 4
+
+ID: 94080
+time: "14:19:50.135436608"
+desId: 41729
+type: 1
+subtype: 8
+
+ID: 94336
+time: "14:19:50.135497641"
+srcId: 41729
+desId: 258
+type: 1
+subtype: 21
+
+ID: 94592
+time: "14:19:50.135538231"
+srcId: 258
+desId: 41729
+type: 1
+subtype: 20
+
+ID: 94848
+time: "14:19:50.135553175"
+srcId: 41729
+desId: 258
+type: 1
+subtype: 3
+
+ID: 52481
+time: "14:19:50.135755169"
+subtype: 5
+size: 4
+paras {
+  intValue: 29935
+}
+paras {
+  intValue: 26437
+}
+paras {
+  stringValue: "\"bash\""
+}
+paras {
+  stringValue: "\"bash\""
+}
+
+ID: 95104
+time: "14:19:50.135637479"
+srcId: 41729
+desId: 29935
+type: 1
+subtype: 13
+size: 1
+paras {
+  intValue: 18874385
+}
+
+ID: 95360
+time: "14:19:50.135893855"
+srcId: 41729
+type: 1
+subtype: 3
+
+ID: 95616
+time: "14:19:50.135896975"
+srcId: 41729
+type: 1
+subtype: 3
+
+ID: 95872
+time: "14:19:50.135948767"
+srcId: 52481
+type: 1
+subtype: 3
+
+ID: 96128
+time: "14:19:50.135956967"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 96384
+time: "14:19:50.135962847"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.136226351"
+size: 1
+paras {
+  stringValue: "\"/usr/local/etc/snoopy.ini\""
+}
+
+ID: 96640
+time: "14:19:50.136226351"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 96896
+time: "14:19:50.136271452"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 97152
+time: "14:19:50.136337343"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 97408
+time: "14:19:50.136351976"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 97664
+time: "14:19:50.136401292"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 97920
+time: "14:19:50.136411865"
+srcId: 52481
+type: 1
+subtype: 3
+
+ID: 98176
+time: "14:19:50.136804725"
+srcId: 52481
+desId: 514
+type: 1
+subtype: 21
+
+ID: 514
+time: "14:19:50.136837641"
+subtype: 3
+size: 3
+paras {
+  intValue: 3
+}
+paras {
+  stringValue: "\' \'"
+}
+paras {
+  intValue: 0
+}
+
+ID: 98432
+time: "14:19:50.136837641"
+srcId: 52481
+desId: 514
+type: 1
+subtype: 16
+
+ID: 98688
+time: "14:19:50.136850585"
+srcId: 52481
+desId: 514
+type: 1
+subtype: 3
+
+ID: 98944
+time: "14:19:50.136903823"
+srcId: 41473
+type: 1
+subtype: 4
+
+ID: 99200
+time: "14:19:50.136929340"
+desId: 41473
+type: 1
+subtype: 8
+
+ID: 52737
+time: "14:19:50.136861541"
+subtype: 5
+size: 4
+paras {
+  intValue: 0
+}
+paras {
+  intValue: 0
+}
+paras {
+  stringValue: "\"/usr/bin/lttng\""
+}
+paras {
+  stringValue: "\"/usr/bin/lttng\""
+}
+
+ID: 99456
+time: "14:19:50.136861541"
+srcId: 52737
+desId: 51457
+type: 1
+subtype: 14
+size: 2
+paras {
+  stringValue: "\"/usr/bin/lttng\""
+}
+paras {
+  stringValue: "\"/usr/bin/lttng\""
+}
+
+time: "14:19:50.137401684"
+size: 1
+paras {
+  stringValue: "\"/etc/ld.so.preload\""
+}
+
+ID: 99712
+time: "14:19:50.137401684"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 99968
+time: "14:19:50.137414675"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.137430739"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/x86_64/liblttng-ctl.so.0\""
+}
+
+ID: 100224
+time: "14:19:50.137430739"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137441541"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/liblttng-ctl.so.0\""
+}
+
+ID: 100480
+time: "14:19:50.137441541"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137450582"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/x86_64/liblttng-ctl.so.0\""
+}
+
+ID: 100736
+time: "14:19:50.137450582"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137458542"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/liblttng-ctl.so.0\""
+}
+
+ID: 100992
+time: "14:19:50.137458542"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 101248
+time: "14:19:50.137467342"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 101504
+time: "14:19:50.137514198"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.137527030"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/liburcu-common.so.6\""
+}
+
+ID: 101760
+time: "14:19:50.137527030"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137534364"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/liburcu-common.so.6\""
+}
+
+ID: 102016
+time: "14:19:50.137534364"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 102272
+time: "14:19:50.137542362"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 102528
+time: "14:19:50.137582826"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.137590657"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/liburcu.so.6\""
+}
+
+ID: 102784
+time: "14:19:50.137590657"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137597112"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/liburcu.so.6\""
+}
+
+ID: 103040
+time: "14:19:50.137597112"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 103296
+time: "14:19:50.137604993"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 103552
+time: "14:19:50.137639536"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.137649255"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/libuuid.so.1\""
+}
+
+ID: 103808
+time: "14:19:50.137649255"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137655614"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/libuuid.so.1\""
+}
+
+ID: 104064
+time: "14:19:50.137655614"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 104320
+time: "14:19:50.137663382"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 104576
+time: "14:19:50.137697917"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.137705556"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/libxml2.so.2\""
+}
+
+ID: 104832
+time: "14:19:50.137705556"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137712649"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/libxml2.so.2\""
+}
+
+ID: 105088
+time: "14:19:50.137712649"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 105344
+time: "14:19:50.137720664"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 105600
+time: "14:19:50.137767476"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.137777356"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/libpopt.so.0\""
+}
+
+ID: 105856
+time: "14:19:50.137777356"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137783760"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/libpopt.so.0\""
+}
+
+ID: 106112
+time: "14:19:50.137783760"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 106368
+time: "14:19:50.137792366"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 106624
+time: "14:19:50.137825659"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.137833921"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/liburcu-cds.so.6\""
+}
+
+ID: 106880
+time: "14:19:50.137833921"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137841164"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/liburcu-cds.so.6\""
+}
+
+ID: 107136
+time: "14:19:50.137841164"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 107392
+time: "14:19:50.137849187"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 107648
+time: "14:19:50.137883953"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.137893756"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/librt.so.1\""
+}
+
+ID: 107904
+time: "14:19:50.137893756"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137900086"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/librt.so.1\""
+}
+
+ID: 108160
+time: "14:19:50.137900086"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 108416
+time: "14:19:50.137907764"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 108672
+time: "14:19:50.137952247"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.137962311"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/libpthread.so.0\""
+}
+
+ID: 108928
+time: "14:19:50.137962311"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.137968667"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/libpthread.so.0\""
+}
+
+ID: 109184
+time: "14:19:50.137968667"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 109440
+time: "14:19:50.137976727"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 109696
+time: "14:19:50.138019663"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.138030277"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/libc.so.6\""
+}
+
+ID: 109952
+time: "14:19:50.138030277"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.138036842"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/libc.so.6\""
+}
+
+ID: 110208
+time: "14:19:50.138036842"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 110464
+time: "14:19:50.138045452"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 110720
+time: "14:19:50.138091221"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.138107070"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/libdl.so.2\""
+}
+
+ID: 110976
+time: "14:19:50.138107070"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.138113726"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/libdl.so.2\""
+}
+
+ID: 111232
+time: "14:19:50.138113726"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 111488
+time: "14:19:50.138121753"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 111744
+time: "14:19:50.138165767"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.138174474"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/libz.so.1\""
+}
+
+ID: 112000
+time: "14:19:50.138174474"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.138181019"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/libz.so.1\""
+}
+
+ID: 112256
+time: "14:19:50.138181019"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 112512
+time: "14:19:50.138188864"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 112768
+time: "14:19:50.138227644"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.138238378"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/liblzma.so.5\""
+}
+
+ID: 113024
+time: "14:19:50.138238378"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.138245544"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/liblzma.so.5\""
+}
+
+ID: 113280
+time: "14:19:50.138245544"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 113536
+time: "14:19:50.138253704"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 113792
+time: "14:19:50.138296746"
+srcId: 52481
+type: 1
+subtype: 3
+
+time: "14:19:50.138318365"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/tls/libm.so.6\""
+}
+
+ID: 114048
+time: "14:19:50.138318365"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: -2
+}
+
+time: "14:19:50.138330902"
+size: 1
+paras {
+  stringValue: "\"/usr/lib64/libm.so.6\""
+}
+
+ID: 114304
+time: "14:19:50.138330902"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 114560
+time: "14:19:50.138373646"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 114816
+time: "14:19:50.138429260"
+srcId: 52481
+type: 1
+subtype: 3
+
+ID: 115072
+time: "14:19:50.139528879"
+srcId: 52481
+desId: 770
+type: 1
+subtype: 21
+
+ID: 770
+time: "14:19:50.139559747"
+subtype: 3
+size: 3
+paras {
+  intValue: 3
+}
+paras {
+  stringValue: "\' \'"
+}
+paras {
+  intValue: 0
+}
+
+ID: 115328
+time: "14:19:50.139559747"
+srcId: 52481
+desId: 770
+type: 1
+subtype: 16
+
+ID: 115584
+time: "14:19:50.139604973"
+srcId: 770
+desId: 52481
+type: 1
+subtype: 20
+
+ID: 115840
+time: "14:19:50.139619596"
+srcId: 52737
+type: 1
+subtype: 18
+
+ID: 116096
+time: "14:19:50.139694927"
+srcId: 31745
+type: 1
+subtype: 18
+
+ID: 116352
+time: "14:19:50.139751872"
+desId: 31745
+type: 1
+subtype: 20
+
+ID: 116608
+time: "14:19:50.139764391"
+srcId: 31745
+type: 1
+subtype: 3
+
+ID: 116864
+time: "14:19:50.139787092"
+srcId: 52481
+desId: 770
+type: 1
+subtype: 18
+
+ID: 117120
+time: "14:19:50.139804801"
+srcId: 52481
+desId: 770
+type: 1
+subtype: 3
+
+time: "14:19:50.139865835"
+size: 1
+paras {
+  stringValue: "\"/root/.lttngrc\""
+}
+
+ID: 117376
+time: "14:19:50.139865835"
+srcId: 52481
+type: 1
+subtype: 1
+size: 1
+paras {
+  intValue: 3
+}
+
+ID: 117632
+time: "14:19:50.139909405"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 117888
+time: "14:19:50.139924087"
+srcId: 52481
+type: 1
+subtype: 4
+
+ID: 118144
+time: "14:19:50.139932038"
+srcId: 52481
+type: 1
+subtype: 3
+
+ID: 118400
+time: "14:19:50.139956373"
+srcId: 52481
+desId: 1026
+type: 1
+subtype: 21
+
+ID: 1026
+time: "14:19:50.139974620"
+subtype: 3
+size: 3
+paras {
+  intValue: 3
+}
+paras {
+  stringValue: "\' \'"
+}
+paras {
+  intValue: 0
+}
+
+ID: 118656
+time: "14:19:50.139974620"
+srcId: 52481
+desId: 1026
+type: 1
+subtype: 16
+
+ID: 118912
+time: "14:19:50.140001738"
+srcId: 1026
+desId: 52481
+type: 1
+subtype: 20
+
+ID: 119168
+time: "14:19:50.140010593"
+srcId: 52737
+type: 1
+subtype: 18
+
+ID: 119424
+time: "14:19:50.140094444"
+srcId: 31745
+type: 1
+subtype: 18
+

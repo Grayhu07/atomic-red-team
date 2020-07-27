@@ -19,4 +19,4 @@ atomic_tests:
   executor:
     name: sh
     command: |
-      grep -ri --exclude-dir=output --exclude-dir=Desktop password #{file_path} >> ~/output/pwd.txt
+      grep -ri --exclude-dir=output --exclude-dir=output password #{file_path} >> ~/output/pwd.txt
