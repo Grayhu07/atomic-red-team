@@ -112,15 +112,12 @@ if __name__ == '__main__':
 	download_script = ['T1074']
 	times=0
 	flag = False
-	#index_list = ['command&control','escalation', 'persistence','execution','credential_access','discovery','defence_evasion','lateral_movement',\
-#'collection','exfiltration']
-	#attack_list=index_list+['Include','final']
-	test_list = ['T1074']
-	index_list = ['collection']
+	index_list = ['command&control','escalation', 'persistence','execution','credential_access','discovery','defence_evasion','lateral_movement',\
+'collection','exfiltration']
 	attack_list=index_list+['Include','final']
 	while times<1:
 		i=0
-		#random_test(index_list,test_list)
+		random_test(index_list,test_list)
 		temp_list = ['T1099','T0000']
 		test_list = test_list + temp_list
 		print(test_list)
@@ -134,9 +131,6 @@ if __name__ == '__main__':
 			list_doc = load_yaml_file(normalize)
 			output = get_output(list_doc,0)
 			#parameter = set_parameter(inputs,payload_list,i)
-			#print(parameter)
-			#print('running test {}, this test will set specific file uid').format
-			print(output)
 			flag = technique.execute(test_list[i],position=0)
 			if test_list[i] in download_script:
 				test_dict = load_test('T1166','Include',position=0)
