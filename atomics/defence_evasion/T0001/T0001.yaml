@@ -18,6 +18,6 @@ atomic_tests:
     file: None
   executor:
     name: sh
-    elevation_required: false
+    elevation_required: true
     command: |
       shred -u #{file_to_remove}
