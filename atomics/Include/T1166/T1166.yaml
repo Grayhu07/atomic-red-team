@@ -14,16 +14,17 @@ atomic_tests:
     payload:
       description: hello.c payload
       type: path
-      default: ~/atomic-red-team/control.sh
+      default: ~/hello.sh
   output:
-    file: None
+    file: ~/output/script_out.txt
   executor:
     name: sh
     elevation_required: true
     command: |
-      sudo chown root ~/atomic-red-team/control.sh
-      sudo chmod 4755 ~/atomic-red-team/control.sh
+      sudo chown root #{payload}
+      sudo chmod 4755 #{payload}
       ls -l ~
+      #{payload} >> ~/output/script_out.txt
     cleanup_command: |
       sudo rm ./hello
 

@@ -43,7 +43,7 @@ def useful_test(atomic_tests, position):
 		else:
 			print('out of bound')
 
-def get_payload(list_doc,position=0,new_payload=None):
+def get_output(list_doc,position=0,new_payload=None):
 	if not new_payload:
 		test = useful_test(list_doc['atomic_tests'],position)
 		out = test['output']
@@ -62,6 +62,14 @@ def get_payload(list_doc,position=0,new_payload=None):
 		result = new_payload
 	return result
 
+def get_payload(list_doc,position=0):
+	payload_list = []
+	test = useful_test(list_doc['atomic_tests'],position)
+	inputs = test['input_arguments']
+	for item in inputs:
+		payload_list.append(item)
+	return payload_list
+
 def get_description(list_doc,position=0):
 	test = useful_test(list_doc['atomic_tests'],position)
 	out = test['description']
@@ -73,18 +81,20 @@ def get_command(list_doc,position=0):
 	command = executor['command']
 	return command
 
-def set_parameter(inputs,arguments,index):
-	args = parseArguments()
+def set_parameter(inputs,payload,index):
 	parameter = ''
-	i = 0
-	while i<len(inputs[index]):
-		if args.parameter is not None:
-			tmp = {inputs[index][i]: args.parameter}
-			json_parameter = json.dumps(tmp)
-			parameter = json.loads(json_parameter)
-		i+=1
+	tmp = {payload[index]: inputs}
+	json_parameter = json.dumps(tmp)
+	parameter = json.loads(json_parameter)
 	return parameter
-		
+
+def load_test(test,path,position=0):
+	relative = os.path.join(load_path,path)
+	test_path = os.path.join(relative,test,test+'.yaml')
+	normalize = os.path.normpath(test_path)
+	list_doc = load_yaml_file(normalize)
+	return list_doc
+	
 
 def random_test(index_list,test_list):
 	for i in index_list:
@@ -97,18 +107,20 @@ if __name__ == '__main__':
 	technique = runner.AtomicRunner()
 	args = parseArguments()
 	inputs = []
-	payload_list = []
+	#payload_list = []
 	test_list = []
+	download_script = ['T1074']
 	times=0
 	flag = False
-	index_list = ['command&control','escalation', 'persistence','execution','credential_access','discovery','defence_evasion','lateral_movement',\
-'collection','exfiltration']
+	#index_list = ['command&control','escalation', 'persistence','execution','credential_access','discovery','defence_evasion','lateral_movement',\
+#'collection','exfiltration']
+	#attack_list=index_list+['Include','final']
+	test_list = ['T1074']
+	index_list = ['collection']
 	attack_list=index_list+['Include','final']
-	#test_list = ['T1113','T1090','T1059','T1139','T1146','T1166','T1156']
-	#index_list = ['collection','command&control','credential_access','defence_evasion','final']
-	while times<1000:
+	while times<1:
 		i=0
-		random_test(index_list,test_list)
+		#random_test(index_list,test_list)
 		temp_list = ['T1099','T0000']
 		test_list = test_list + temp_list
 		print(test_list)
@@ -120,11 +132,17 @@ if __name__ == '__main__':
 			test_path = os.path.join(relative,test_list[i],test_list[i]+'.yaml')
 			normalize = os.path.normpath(test_path)
 			list_doc = load_yaml_file(normalize)
-			output = get_payload(list_doc,0)
+			output = get_output(list_doc,0)
 			#parameter = set_parameter(inputs,payload_list,i)
 			#print(parameter)
 			#print('running test {}, this test will set specific file uid').format
+			print(output)
 			flag = technique.execute(test_list[i],position=0)
+			if test_list[i] in download_script:
+				test_dict = load_test('T1166','Include',position=0)
+				payload_list = get_payload(test_dict,0)
+				parameter = set_parameter(output,payload_list,index=0)
+				technique.execute('T1166',position=0,parameters=parameter)
 			description =  get_description(list_doc,0)
 			command = get_command(list_doc,0)
 			if flag:

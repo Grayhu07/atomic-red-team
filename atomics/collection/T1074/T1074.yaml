@@ -11,9 +11,9 @@ atomic_tests:
     - linux
     - macos
   output:
-    file: ~/output/discovery.log
+    file: ~/discovery.sh
   executor:
     name: bash
     command: |
-      curl -s https://raw.githubusercontent.com/Grayhu07/atomic-red-team/master/atomics/collection/T1074/src/Discovery.sh | bash -s > ~/output/discovery.log
+      curl -s https://raw.githubusercontent.com/Grayhu07/atomic-red-team/master/atomics/collection/T1074/src/Discovery.sh -o ~/discovery.sh
 

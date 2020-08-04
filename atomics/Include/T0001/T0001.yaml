@@ -1,0 +1,26 @@
+---
+attack_technique: T0001
+display_name: executing and save result
+
+atomic_tests:
+- name: executing and save result
+  description: |
+    executing and save result
+
+  supported_platforms:
+    - linux
+
+  input_arguments:
+    payload:
+      description: hello.c payload
+      type: path
+      default: ~/hello.sh
+  output:
+    file: ~/output/script_out.txt
+  executor:
+    name: sh
+    elevation_required: false
+    command: |
+      #{payload} >> ~/output/script_out.txt
+    cleanup_command: |
+      sudo rm ./hello
