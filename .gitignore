@@ -13,12 +13,12 @@ atomic-red-team/enterprise-attack.json
 
 # vs logs
 *.tlog
-#*.log
-#*.out
+*.log
+*.out
 
 #data
-#*.bin
-#*.tar.gz
+*.bin
+*.tar.gz
 
 # Precompiled Headers
 *.gch
