@@ -18,6 +18,7 @@ atomic-red-team/enterprise-attack.json
 
 #data
 *.bin
+*.tar.gz
 
 # Precompiled Headers
 *.gch
