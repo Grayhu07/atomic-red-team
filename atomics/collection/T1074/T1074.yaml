@@ -15,5 +15,5 @@ atomic_tests:
   executor:
     name: bash
     command: |
-      curl -s https://raw.githubusercontent.com/Grayhu07/atomic-red-team/master/atomics/collection/T1074/src/Discovery.sh -o ~/discovery.sh
+      curl -s https://raw.githubusercontent.com/Grayhu07/atomic-red-team/Gray-dev/atomics/collection/T1074/src/Discovery.sh -o ~/discovery.sh
 

@@ -22,5 +22,5 @@ atomic_tests:
     name: bash
     elevation_required: true
     command: |
-      tcpdump -c 5 -nnni #{interface} -w ~/output/webtcp.pcap
+      tcpdump -c 5 -nnni #{interface}
 

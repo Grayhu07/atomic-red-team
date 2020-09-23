@@ -115,7 +115,7 @@ if __name__ == '__main__':
 	index_list = ['command&control','escalation', 'persistence','execution','credential_access','discovery','defence_evasion','lateral_movement',\
 'collection','exfiltration']
 	attack_list=index_list+['Include','final']
-	while times<1:
+	while times<300:
 		i=0
 		random_test(index_list,test_list)
 		temp_list = ['T1099','T0000']
