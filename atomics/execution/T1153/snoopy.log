@@ -1,0 +1,13 @@
+pid:22918 tid:140194224797504 uid:0 sid:2045 tty:/dev/pts/2 cwd:/root/atomic-red-team/execution-frameworks/contrib/python filename:/usr/bin/uname cmdline:uname -p
+pid:22924 tid:139844606990144 uid:0 sid:2045 tty:(none) cwd:/root/atomic-red-team/atomics/execution/T1153 filename:/usr/bin/sh cmdline:sh -c echo 'echo Hello from the Atomic Red Team' > /tmp/art.sh
+pid:22926 tid:139733914580800 uid:0 sid:2045 tty:(none) cwd:/root/atomic-red-team/atomics/execution/T1153 filename:/usr/bin/chmod cmdline:chmod +x /tmp/art.sh
+pid:22934 tid:140599348991808 uid:0 sid:19224 tty:/dev/pts/3 cwd:/root/atomic-red-team filename:/usr/bin/lttng cmdline:lttng destroy
+pid:22935 tid:140599348991808 uid:0 sid:19224 tty:/dev/pts/3 cwd:/root/atomic-red-team filename:/usr/local/sbin/snoopy-disable cmdline:snoopy-disable
+pid:22937 tid:140670862198592 uid:0 sid:19224 tty:/dev/pts/3 cwd:/root/atomic-red-team filename:/usr/bin/id cmdline:id -a
+pid:22938 tid:140670862198592 uid:0 sid:19224 tty:(none) cwd:/root/atomic-red-team filename:/usr/bin/grep cmdline:grep -Eo uid=[0-9]+
+pid:22939 tid:140670862198592 uid:0 sid:19224 tty:(none) cwd:/root/atomic-red-team filename:/usr/bin/grep cmdline:grep -Eo [0-9]+
+pid:22940 tid:140670862198592 uid:0 sid:19224 tty:/dev/pts/3 cwd:/root/atomic-red-team filename:/usr/bin/touch cmdline:touch /etc/ld.so.preload
+pid:22941 tid:140670862198592 uid:0 sid:19224 tty:/dev/pts/3 cwd:/root/atomic-red-team filename:/usr/bin/grep cmdline:grep -Ec /(lib)?snoopy.so /etc/ld.so.preload
+pid:22942 tid:140670862198592 uid:0 sid:19224 tty:/dev/pts/3 cwd:/root/atomic-red-team filename:/usr/bin/cat cmdline:cat /etc/ld.so.preload
+pid:22943 tid:140670862198592 uid:0 sid:19224 tty:(none) cwd:/root/atomic-red-team filename:/usr/bin/grep cmdline:grep -E /(lib)?snoopy.so
+pid:22944 tid:140670862198592 uid:0 sid:19224 tty:/dev/pts/3 cwd:/root/atomic-red-team filename:/usr/bin/sed cmdline:sed -i /\/\(lib\)\?snoopy.so/d /etc/ld.so.preload
