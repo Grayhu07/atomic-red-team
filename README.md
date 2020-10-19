@@ -9,6 +9,7 @@ Atomic Red Team allows every security team to test their controls by executing s
 I wrote some script that randomly choose attack scripts from each categories (collection, commmand and control, credential access, defence evasion, discovery, escalation, execution, exfiltration, lateral movement and persistence) to run and pack the result in ~/output to ~/output.tar.gz
 
 ## Structure
+### update: ```control.py``` and ```control.sh``` no longer in use, so if you need to run the tests, please just run ```python3 chain.py``` 
 
 ```bash
                                                 |── collection
@@ -16,7 +17,7 @@ I wrote some script that randomly choose attack scripts from each categories (co
                                                 |── credential access
                                                 |── defence evasion
                                                 |── discovery
-├── control.py ── control.sh ── execution.py ── |── privilege escalation
+├── control.py ── control.sh ── chain.py ── |── privilege escalation
                                                 |── execution
                                                 |── exfiltration
                                                 |── lateral movement
@@ -36,8 +37,9 @@ pip3 install -r requirement.txt
 Navigate to ```atomic-red-team/execution-framework/contrib/python``` directory and use this command to run:
 
 ```
-python3 execution.py
+python3 chain.py
 ```
+The file ```execution.py``` does not generate a long chain of attack, in contrary, ```chain.py``` does generate a longer chain of attack, so if you need, please use ```chain.py```
 ## Implement your own attack script
 Please use this example and follow the structure to implement your ```.yaml``` file:
 ```
