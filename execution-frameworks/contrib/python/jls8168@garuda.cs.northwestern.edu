@@ -11,8 +11,6 @@ import argparse
 
 #load_path = '/root/atomic-red-team/atomics'
 load_path = os.path.join("..","..","..","atomics")
-home = os.getenv("HOME")
-output_file_path = os.path.join(home,'output/')
 yaml = ruamel.yaml.YAML()
 
 def parseArguments():
@@ -105,33 +103,21 @@ def random_test(index_list,test_list):
 		tmp = os.listdir(relative)
 		test_list.append(random.choice(tmp))
 
-def read_file():
-	files = os.listdir(output_file_path)
-	for i in files:
-		file_path = os.path.join(output_file_path,i)
-		with open(file_path,'r') as f:
-			f.read()
-	
-			
-
 if __name__ == '__main__':
 	technique = runner.AtomicRunner()
 	args = parseArguments()
 	inputs = []
 	#payload_list = []
 	test_list = []
-	download_script = ['T1074','T1027','T1064','T1153']	#tests that need privilege
-	#exception_list = ['T1002','T1046','T1049','T1059','T1065','T1071','T1090']
+	download_script = ['T1074']
 	times=0
 	flag = False
-	index_list = ['escalation', 'persistence','execution','credential_access','discovery','defence_evasion','lateral_movement',\
+	index_list = ['command&control','escalation', 'persistence','execution','credential_access','discovery','defence_evasion','lateral_movement',\
 'collection','exfiltration']
-	#index_list = ['defence_evasion']
 	attack_list=index_list+['Include','final']
-	while times<1:
+	while times<300:
 		i=0
-		#random_test(index_list,test_list)
-		test_list =['T1206','T1136','T1153','T1145','T1018','T1070','T1105','T1074','T1048']
+		random_test(index_list,test_list)
 		temp_list = ['T1099','T0000']
 		test_list = test_list + temp_list
 		print(test_list)
@@ -147,7 +133,6 @@ if __name__ == '__main__':
 			#parameter = set_parameter(inputs,payload_list,i)
 			flag = technique.execute(test_list[i],position=0)
 			if test_list[i] in download_script:
-				#Test T1166 perform privilege escalation for necessary test
 				test_dict = load_test('T1166','Include',position=0)
 				payload_list = get_payload(test_dict,0)
 				parameter = set_parameter(output,payload_list,index=0)
@@ -171,12 +156,6 @@ if __name__ == '__main__':
 				f.write("\n")
 			for item in test_list:
 				f.write('%s, '% item)
-		read_file()
-		send_payload=get_payload(load_test('T0003','command&control',position=0))
-		#print(send_payload)
-		send_input = 'data=@'+home+'/output.tar.gz'
-		#Test T0003 perfome a send action to non-operating sever
-		technique.execute('T0003',position=0,parameters=set_parameter(send_input,send_payload,index=1))
 		test_list=[]
 		times+=1
 	print('Finish test')

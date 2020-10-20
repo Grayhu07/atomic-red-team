@@ -115,12 +115,22 @@ if __name__ == '__main__':
 	index_list = ['command&control','escalation', 'persistence','execution','credential_access','discovery','defence_evasion','lateral_movement',\
 'collection','exfiltration']
 	attack_list=index_list+['Include','final']
-	while times<300:
+	while times<5:
 		i=0
 		random_test(index_list,test_list)
 		temp_list = ['T1099','T0000']
 		test_list = test_list + temp_list
 		print(test_list)
+		with open('test_list.txt','a+') as f:
+			f.seek(0)
+			data = f.read(100)
+			if len(data) > 0:
+				f.write("\n")
+			f.write("Test list contains:")
+			for item in test_list:
+				f.write('%s ,' % item)
+			f.write("The details are listed below\n")
+
 		#index_list = ['persistence']
 		#test_list = ['T1501']
 #for passing file name using parameter, can preload all required name of args and get payload value dynamically. (need implement).
@@ -147,15 +157,19 @@ if __name__ == '__main__':
 			print(description)
 			print("Command used:")
 			print(command)
+			with open('test_list.txt','a+') as f:
+				f.seek(0)
+				data = f.read(100)
+				if len(data) > 0:
+					f.write("\n")
+				f.write(test_list[i])
+				f.write(": ")
+				f.write(description)
+				f.write(command)
+				f.write("\n")
+			
 			i+=1
 		os.remove(os.path.join('./techniques_hash.db'))
-		with open('test_list.txt','a+') as f:
-			f.seek(0)
-			data = f.read(100)
-			if len(data) > 0:
-				f.write("\n")
-			for item in test_list:
-				f.write('%s, '% item)
 		test_list=[]
 		times+=1
 	print('Finish test')
