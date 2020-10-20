@@ -171,7 +171,7 @@ if __name__ == '__main__':
 				f.write("\n")
 			for item in test_list:
 				f.write('%s, '% item)
-		read_file()
+		#read_file()
 		send_payload=get_payload(load_test('T0003','command&control',position=0))
 		#print(send_payload)
 		send_input = 'data=@'+home+'/output.tar.gz'
