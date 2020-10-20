@@ -109,7 +109,8 @@ def read_file():
 	files = os.listdir(output_file_path)
 	for i in files:
 		file_path = os.path.join(output_file_path,i)
-		with open(file_path,'r') as f:
+		with open(file_path,'r',encoding='utf-8',errors='ignore') as f:
+			print('in reading')
 			f.read()
 	
 			
@@ -135,6 +136,15 @@ if __name__ == '__main__':
 		temp_list = ['T1099','T0000']
 		test_list = test_list + temp_list
 		print(test_list)
+		with open('test_list.txt','a+') as f:
+                        f.seek(0)
+                        data = f.read(100)
+                        if len(data) > 0:
+                                f.write("\n")
+                        f.write('Test list contains: ')
+                        for item in test_list:
+                                f.write('%s, '% item)
+                        f.write('\n')
 		#index_list = ['persistence']
 		#test_list = ['T1501']
 #for passing file name using parameter, can preload all required name of args and get payload value dynamically. (need implement).
@@ -162,16 +172,20 @@ if __name__ == '__main__':
 			print(description)
 			print("Command used:")
 			print(command)
+			with open('test_list.txt','a+') as f:
+                                f.seek(0)
+                                data = f.read(100)
+                                if len(data) > 0:
+                                        f.write("\n")
+                                f.write(test_list[i])
+                                f.write(": ")
+                                f.write(description)
+                                f.write(command)
+                                f.write("\n")
+
 			i+=1
 		os.remove(os.path.join('./techniques_hash.db'))
-		with open('test_list.txt','a+') as f:
-			f.seek(0)
-			data = f.read(100)
-			if len(data) > 0:
-				f.write("\n")
-			for item in test_list:
-				f.write('%s, '% item)
-		#read_file()
+		read_file()
 		send_payload=get_payload(load_test('T0003','command&control',position=0))
 		#print(send_payload)
 		send_input = 'data=@'+home+'/output.tar.gz'
