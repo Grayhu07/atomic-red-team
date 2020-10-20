@@ -1,0 +1,22 @@
+---
+attack_technique: T1049
+display_name: System Network Connections Discovery
+
+atomic_tests:
+- name: System Network Connections Discovery Linux & MacOS
+  description: |
+    Get a listing of network connections.
+
+    Upon successful execution, sh will execute `netstat` and `who -a`. Results will output via stdout.
+
+  supported_platforms:
+    - linux
+    - macos
+  output:
+    file: ~/output/network.txt
+  executor:
+    name: sh
+    elevation_required: false
+    command: |
+      netstat >> ~/output/network.txt
+      who -a >> ~/output/network.txt

@@ -11,15 +11,13 @@ atomic_tests:
     - macos
     - linux
   output:
-    file: None
+    file: /tmp/art.sh
   executor:
     name: sh
     elevation_required: false
     command: |
       sh -c "echo 'echo Hello from the Atomic Red Team' > /tmp/art.sh"
       sh -c "echo 'ping -c 4 8.8.8.8' >> /tmp/art.sh"
-      chmod +x /tmp/art.sh
-      sh /tmp/art.sh
 
 - name: Create and Execute Batch Script
   description: |

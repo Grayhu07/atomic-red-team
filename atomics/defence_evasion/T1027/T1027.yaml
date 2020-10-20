@@ -13,13 +13,11 @@ atomic_tests:
     - macos
     - linux
   output:
-    file: ~/output/desktop.png
+    file: ~/output/art.sh
   executor:
     name: sh
     elevation_required: false
     command: |
       sh -c "echo ZWNobyBIZWxsbyBmcm9tIHRoZSBBdG9taWMgUmVkIFRlYW0= > ~/output/encoded.dat"
       cat ~/output/encoded.dat | base64 -d > ~/output/art.sh
-      chmod +x ~/output/art.sh
-      ~/output/art.sh
 

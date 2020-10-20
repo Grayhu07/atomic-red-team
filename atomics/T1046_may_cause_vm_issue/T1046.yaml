@@ -1,0 +1,36 @@
+---
+attack_technique: T1046
+display_name: Network Service Scanning
+
+atomic_tests:
+- name: Port Scan Nmap
+  description: |
+    Scan ports to check for listening ports with Nmap.
+
+    Upon successful execution, sh will utilize nmap, telnet, and nc to contact a single or range of adresseses on port 80 to determine if listening. Results will be via stdout.
+
+  supported_platforms:
+    - linux
+    - macos
+
+  input_arguments:
+    network_range:
+      description: Network Range to Scan.
+      type: string
+      default: 192.168.1.0/24
+    port:
+      description: Ports to scan.
+      type: string
+      default: 80
+    host:
+      description: Host to scan.
+      type: string
+      default: 192.168.1.1
+  output:
+    file: ~/output/port.txt
+  executor:
+    name: sh
+    command: |
+      nmap -sS #{network_range} -p #{port} >> ~/output/port.txt
+      telnet #{host} #{port} >> ~/output/port.txt
+      nc -nv #{host} #{port} >> ~/output/port.txt

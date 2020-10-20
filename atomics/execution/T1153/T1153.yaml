@@ -11,13 +11,11 @@ atomic_tests:
     - macos
     - linux
   output:
-    file: None
+    file: /tmp/art-echo.sh
   executor:
     name: sh
     command: |
-      sh -c "echo 'echo Hello from the Atomic Red Team' > /tmp/art.sh"
-      chmod +x /tmp/art.sh
-      source /tmp/art.sh
+      sh -c "echo 'echo Hello from the Atomic Red Team' > /tmp/art-echo.sh"
 
 - name: Execute Script using Source Alias
   description: |
